@@ -1,0 +1,10 @@
+FOTOS: tempo: 1/6s
+
+velhas: f5.6  ->  f8  ->  f14  ->  f20 
+
+
+o que podemos mudar? 
+novas: f5.6 -> f13 -> f18 -> f25
+
+
+novas 2.0 : f5.6 -> f8 -> f13 -> f18

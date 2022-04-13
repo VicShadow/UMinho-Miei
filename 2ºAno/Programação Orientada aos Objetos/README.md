@@ -1,4 +1,4 @@
-# poo-project
+# Programação Orientada aos Objetos
 Trabalho Prático da unidade curricular Programação Orientada aos Objetos (POO)
 Grupo 46:
 Joana Alves - A93290    

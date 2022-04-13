@@ -1,0 +1,64 @@
+SIMAN Run Controller.
+
+0.98398743 Days>
+                                      ARENA Simulation Results
+                             A93296@alunos.uminho.pt - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :11/15/2019
+Analyst: a93264@alunos.uminho.pt                                     Model revision date:11/15/2019
+
+Replication ended at time      : 0.98398743 Days 
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+NVar                                        2920.0     (Insuf)    2920.0     2920.0          1    
+Cliente.VATime                              .00583     (Insuf)    .00195     .02169        264    
+Cliente.NVATime                             .00000     (Insuf)    .00000     .00000        264    
+Cliente.WaitTime                            .00459     (Insuf)    .00000     .33356        264    
+Cliente.TranTime                            .00000     (Insuf)    .00000     .00000        264    
+Cliente.OtherTime                           .00000     (Insuf)    .00000     .00000        264    
+Cliente.TotalTime                           .01042     (Insuf)    .00195     .34351        264    
+Empreg.VATime                               .00000     (Insuf)    .00000     .00000          3    
+Empreg.NVATime                              .00000     (Insuf)    .00000     .00000          3    
+Empreg.WaitTime                             .00000     (Insuf)    .00000     .00000          3    
+Empreg.TranTime                             .00000     (Insuf)    .00000     .00000          3    
+Empreg.OtherTime                            .00000     (Insuf)    .00000     .00000          3    
+Empreg.TotalTime                            .00000     (Insuf)    .00000     .00000          3    
+Paga.Queue.WaitingTime                      .00181     (Corr)     .00000     .33265        426    
+Pede Cerveja.Queue.WaitingTime              .00104     .00157     .00000     .33333        432    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Cliente.WIP                                 2.8386     (Insuf)    .00000     14.000     8.0000    
+Empreg.WIP                                  .15311     (Insuf)    .00000     1.0000     1.0000    
+Empregado.NumberBusy                        .69898     (Insuf)    .00000     3.0000     3.0000    
+Empregado.NumberScheduled                   1.4733     (Insuf)    .00000     3.0000     3.0000    
+Empregado.Utilization                       .30036     (Insuf)    .00000     1.0000     1.0000    
+Paga.Queue.NumberInQueue                    .78281     (Insuf)    .00000     5.0000     2.0000    
+Pede Cerveja.Queue.NumberInQueue            .45817     (Insuf)    .00000     6.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Cliente.NumberIn                            272.00    
+Cliente.NumberOut                           264.00    
+Empreg.NumberIn                             4.0000    
+Empreg.NumberOut                            3.0000    
+Empregado.NumberSeized                      858.00    
+Empregado.ScheduledUtilization              .47441    
+System.NumberOut                            267.00    
+
+
+Simulation run time: 0.95 minutes.
+Simulation run complete.
