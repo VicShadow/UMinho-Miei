@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Shaft"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/vicshadow/Desktop/2 ano/CD/Shaft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/vicshadow/Desktop/2 ano/CD/Shaft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/vicshadow/Desktop/2 ano/CD/Shaft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Shaft">
+				<Option output="/home/vicshadow/Desktop/2 ano/CD/Shaft/cmake-build-debug/Shaft" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vicshadow/Desktop/2 ano/CD/Shaft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vicshadow/Desktop/2 ano/CD/Shaft/."/>
+					<Add directory="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f"/>
+					<Add directory="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_t"/>
+					<Add directory="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_c"/>
+					<Add directory="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_d"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 Shaft"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Shaft/fast">
+				<Option output="/home/vicshadow/Desktop/2 ano/CD/Shaft/cmake-build-debug/Shaft" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vicshadow/Desktop/2 ano/CD/Shaft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vicshadow/Desktop/2 ano/CD/Shaft/."/>
+					<Add directory="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f"/>
+					<Add directory="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_t"/>
+					<Add directory="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_c"/>
+					<Add directory="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_d"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 Shaft/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/vicshadow/Desktop/2\ ano/CD/Shaft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/comum.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/comum.h">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/interface.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/interface.h">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_c/estruturas.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_c/estruturas.h">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_c/interpreta_codificacao.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_c/interpreta_codificacao.h">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_c/modulo_c.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_c/modulo_c.h">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_c/terminal.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_c/terminal.h">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_d/modulo_d.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_d/modulo_d.h">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions.h">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions_freq.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions_freq.h">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions_rle.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions_rle.h">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/modulo_f.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/modulo_f.h">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_t/algoritmo_shanon_fanon.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_t/algoritmo_shanon_fanon.h">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_t/modulo_t.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_t/modulo_t.h">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_t/t_estruturas.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_t/t_estruturas.h">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_t/tratamento_file_cod.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_t/tratamento_file_cod.h">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_t/tratamento_file_freq.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_t/tratamento_file_freq.h">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/shafa.c">
+			<Option target="Shaft"/>
+		</Unit>
+		<Unit filename="/home/vicshadow/Desktop/2 ano/CD/Shaft/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,54 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vicshadow/Desktop/2 ano/CD/Shaft/comum.h
+stdlib.h
+-
+stdio.h
+-
+
+/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions.h
+stdio.h
+-
+time.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions_freq.h
+functions.h
+/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions.h
+
+/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions_rle.h
+functions.h
+/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions.h
+functions_freq.h
+/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions_freq.h
+
+/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/modulo_f.c
+functions.h
+/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions.h
+modulo_f.h
+/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/modulo_f.h
+functions_rle.h
+/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions_rle.h
+functions_freq.h
+/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions_freq.h
+../comum.h
+/home/vicshadow/Desktop/2 ano/CD/Shaft/comum.h
+
+/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/modulo_f.h
+functions.h
+/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions.h
+functions_rle.h
+/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions_rle.h
+functions_freq.h
+/home/vicshadow/Desktop/2 ano/CD/Shaft/modulo_f/functions_freq.h
+
