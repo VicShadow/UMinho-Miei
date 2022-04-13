@@ -6,7 +6,7 @@ Este índice contêm também as notas obtidas em cada projeto, assim com um link
 (**Nota:** Alguns dos repositórios poderão ser inacessíveis quer seja por falta de permissões ou desatualização)
 
 ### 1º Ano - 1º Semestre
-* (15) [Elementos de Engenharia de Sistemas]()
+* (15) [Elementos de Engenharia de Sistemas](https://github.com/VicShadow/UMinho-Miei/tree/main/1%C2%BAAno/Elementos%20de%20Engenharia%20de%20Sistemas)
 * (17) [Laboratórios de Informática I](https://github.com/VicShadow/UMinho-Miei/tree/main/1%C2%BAAno/Laborat%C3%B3rios%20de%20Inform%C3%A1tica%20I)
 
 ### 1º Ano - 2º Semestre
@@ -18,7 +18,7 @@ Este índice contêm também as notas obtidas em cada projeto, assim com um link
 * (16) [Comunicação de Dados](https://github.com/VicShadow/UMinho-Miei/tree/main/2%C2%BAAno/Comunica%C3%A7%C3%A3o%20de%20Dados) --> [(Rep. Original)](https://github.com/VicShadow/Projeto-SHAFT-CD-20-21)
 
 ### 2º Ano - 2º Semestre
-* (16) [Ótica Aplicada para Fotografia Digital]()
+* (16) [Ótica Aplicada para Fotografia Digital](https://github.com/VicShadow/UMinho-Miei/tree/main/2%C2%BAAno/%C3%93tica%20Aplicada%20para%20Fotografia%20Digital)
 * (16) [Laboratórios de Informática III](https://github.com/VicShadow/UMinho-Miei/tree/main/2%C2%BAAno/Laborat%C3%B3rios%20de%20Inform%C3%A1tica%20III)
 * (12) [Programação Orientada aos Objetos](https://github.com/VicShadow/UMinho-Miei/tree/main/2%C2%BAAno/Programa%C3%A7%C3%A3o%20Orientada%20aos%20Objetos) --> [(Rep. Original)](https://github.com/marshaia/poo-project)
 * (15) [Sistemas Operativos](https://github.com/VicShadow/UMinho-Miei/tree/main/2%C2%BAAno/Sistemas%20Operativos) --> [(Rep. Original)](https://github.com/VicShadow/SO2019-2020-Aurras)
