@@ -1,0 +1,2376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="naivebayesDataModel">
+    <entry key="ClassColumnName" type="xstring" value="Person Injury Severity"/>
+    <config key="ClassColumnType">
+        <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        <entry key="is_null" type="xboolean" value="false"/>
+    </config>
+    <entry key="skipMissingVals" type="xboolean" value="false"/>
+    <entry key="Threshold" type="xdouble" value="1.0E-4"/>
+    <config key="SkippedAttributes">
+        <entry key="SkippedAttributesCounter" type="xint" value="1"/>
+        <config key="SkippedAttributeData_0">
+            <entry key="attributeName" type="xstring" value="Case Hour"/>
+            <entry key="type" type="xstring" value="NominalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" value="Too many values"/>
+            <config key="data">
+                <entry key="maxNoOfAttrs" type="xlong" value="20"/>
+                <entry key="noOfClasses" type="xlong" value="3"/>
+                <config key="attributeValues">
+                    <entry key="array-size" type="xint" value="20"/>
+                    <entry key="0" type="xstring" value="16"/>
+                    <entry key="1" type="xstring" value="20"/>
+                    <entry key="2" type="xstring" value="12"/>
+                    <entry key="3" type="xstring" value="14"/>
+                    <entry key="4" type="xstring" value="10"/>
+                    <entry key="5" type="xstring" value="18"/>
+                    <entry key="6" type="xstring" value="17"/>
+                    <entry key="7" type="xstring" value="7"/>
+                    <entry key="8" type="xstring" value="21"/>
+                    <entry key="9" type="xstring" value="15"/>
+                    <entry key="10" type="xstring" value="4"/>
+                    <entry key="11" type="xstring" value="8"/>
+                    <entry key="12" type="xstring" value="13"/>
+                    <entry key="13" type="xstring" value="19"/>
+                    <entry key="14" type="xstring" value="22"/>
+                    <entry key="15" type="xstring" value="9"/>
+                    <entry key="16" type="xstring" value="2"/>
+                    <entry key="17" type="xstring" value="6"/>
+                    <entry key="18" type="xstring" value="11"/>
+                    <entry key="19" type="xstring" value="23"/>
+                </config>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="noOfRows" type="xlong" value="97"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="19"/>
+                        <entry key="0" type="xstring" value="22"/>
+                        <entry key="1" type="xstring" value="11"/>
+                        <entry key="2" type="xstring" value="12"/>
+                        <entry key="3" type="xstring" value="13"/>
+                        <entry key="4" type="xstring" value="14"/>
+                        <entry key="5" type="xstring" value="15"/>
+                        <entry key="6" type="xstring" value="16"/>
+                        <entry key="7" type="xstring" value="17"/>
+                        <entry key="8" type="xstring" value="18"/>
+                        <entry key="9" type="xstring" value="19"/>
+                        <entry key="10" type="xstring" value="2"/>
+                        <entry key="11" type="xstring" value="4"/>
+                        <entry key="12" type="xstring" value="6"/>
+                        <entry key="13" type="xstring" value="7"/>
+                        <entry key="14" type="xstring" value="8"/>
+                        <entry key="15" type="xstring" value="9"/>
+                        <entry key="16" type="xstring" value="20"/>
+                        <entry key="17" type="xstring" value="21"/>
+                        <entry key="18" type="xstring" value="10"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="19"/>
+                        <entry key="0" type="xlong" value="1"/>
+                        <entry key="1" type="xlong" value="2"/>
+                        <entry key="2" type="xlong" value="6"/>
+                        <entry key="3" type="xlong" value="4"/>
+                        <entry key="4" type="xlong" value="5"/>
+                        <entry key="5" type="xlong" value="10"/>
+                        <entry key="6" type="xlong" value="8"/>
+                        <entry key="7" type="xlong" value="9"/>
+                        <entry key="8" type="xlong" value="3"/>
+                        <entry key="9" type="xlong" value="1"/>
+                        <entry key="10" type="xlong" value="1"/>
+                        <entry key="11" type="xlong" value="1"/>
+                        <entry key="12" type="xlong" value="3"/>
+                        <entry key="13" type="xlong" value="11"/>
+                        <entry key="14" type="xlong" value="11"/>
+                        <entry key="15" type="xlong" value="8"/>
+                        <entry key="16" type="xlong" value="4"/>
+                        <entry key="17" type="xlong" value="2"/>
+                        <entry key="18" type="xlong" value="7"/>
+                    </config>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="noOfRows" type="xlong" value="3"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="3"/>
+                        <entry key="0" type="xstring" value="14"/>
+                        <entry key="1" type="xstring" value="18"/>
+                        <entry key="2" type="xstring" value="10"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="3"/>
+                        <entry key="0" type="xlong" value="1"/>
+                        <entry key="1" type="xlong" value="1"/>
+                        <entry key="2" type="xlong" value="1"/>
+                    </config>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="noOfRows" type="xlong" value="52"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="18"/>
+                        <entry key="0" type="xstring" value="22"/>
+                        <entry key="1" type="xstring" value="11"/>
+                        <entry key="2" type="xstring" value="12"/>
+                        <entry key="3" type="xstring" value="23"/>
+                        <entry key="4" type="xstring" value="13"/>
+                        <entry key="5" type="xstring" value="14"/>
+                        <entry key="6" type="xstring" value="15"/>
+                        <entry key="7" type="xstring" value="16"/>
+                        <entry key="8" type="xstring" value="17"/>
+                        <entry key="9" type="xstring" value="18"/>
+                        <entry key="10" type="xstring" value="19"/>
+                        <entry key="11" type="xstring" value="6"/>
+                        <entry key="12" type="xstring" value="7"/>
+                        <entry key="13" type="xstring" value="8"/>
+                        <entry key="14" type="xstring" value="9"/>
+                        <entry key="15" type="xstring" value="20"/>
+                        <entry key="16" type="xstring" value="21"/>
+                        <entry key="17" type="xstring" value="10"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="18"/>
+                        <entry key="0" type="xlong" value="1"/>
+                        <entry key="1" type="xlong" value="1"/>
+                        <entry key="2" type="xlong" value="6"/>
+                        <entry key="3" type="xlong" value="1"/>
+                        <entry key="4" type="xlong" value="1"/>
+                        <entry key="5" type="xlong" value="4"/>
+                        <entry key="6" type="xlong" value="3"/>
+                        <entry key="7" type="xlong" value="4"/>
+                        <entry key="8" type="xlong" value="2"/>
+                        <entry key="9" type="xlong" value="3"/>
+                        <entry key="10" type="xlong" value="1"/>
+                        <entry key="11" type="xlong" value="1"/>
+                        <entry key="12" type="xlong" value="6"/>
+                        <entry key="13" type="xlong" value="4"/>
+                        <entry key="14" type="xlong" value="5"/>
+                        <entry key="15" type="xlong" value="1"/>
+                        <entry key="16" type="xlong" value="1"/>
+                        <entry key="17" type="xlong" value="7"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="AttributeModelSection">
+        <entry key="AttributeModelCounter" type="xint" value="18"/>
+        <config key="AttributeModelData_0">
+            <entry key="attributeName" type="xstring" value="Case Month"/>
+            <entry key="type" type="xstring" value="NominalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="maxNoOfAttrs" type="xlong" value="20"/>
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="attributeValues">
+                    <entry key="array-size" type="xint" value="13"/>
+                    <entry key="0" type="xstring" value="January"/>
+                    <entry key="1" type="xstring" value="February"/>
+                    <entry key="2" type="xstring" value="March"/>
+                    <entry key="3" type="xstring" value="April"/>
+                    <entry key="4" type="xstring" value="May"/>
+                    <entry key="5" type="xstring" value="June"/>
+                    <entry key="6" type="xstring" value="July"/>
+                    <entry key="7" type="xstring" value="August"/>
+                    <entry key="8" type="xstring" value="September"/>
+                    <entry key="9" type="xstring" value="October"/>
+                    <entry key="10" type="xstring" value="Novembro"/>
+                    <entry key="11" type="xstring" value="December"/>
+                    <entry key="12" type="xstring" value="Unknown"/>
+                </config>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="12"/>
+                        <entry key="0" type="xstring" value="June"/>
+                        <entry key="1" type="xstring" value="October"/>
+                        <entry key="2" type="xstring" value="December"/>
+                        <entry key="3" type="xstring" value="May"/>
+                        <entry key="4" type="xstring" value="September"/>
+                        <entry key="5" type="xstring" value="March"/>
+                        <entry key="6" type="xstring" value="July"/>
+                        <entry key="7" type="xstring" value="January"/>
+                        <entry key="8" type="xstring" value="February"/>
+                        <entry key="9" type="xstring" value="April"/>
+                        <entry key="10" type="xstring" value="August"/>
+                        <entry key="11" type="xstring" value="Novembro"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="12"/>
+                        <entry key="0" type="xlong" value="2377"/>
+                        <entry key="1" type="xlong" value="2569"/>
+                        <entry key="2" type="xlong" value="2410"/>
+                        <entry key="3" type="xlong" value="2051"/>
+                        <entry key="4" type="xlong" value="2311"/>
+                        <entry key="5" type="xlong" value="2039"/>
+                        <entry key="6" type="xlong" value="2497"/>
+                        <entry key="7" type="xlong" value="2478"/>
+                        <entry key="8" type="xlong" value="2203"/>
+                        <entry key="9" type="xlong" value="1804"/>
+                        <entry key="10" type="xlong" value="2523"/>
+                        <entry key="11" type="xlong" value="2408"/>
+                    </config>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="12"/>
+                        <entry key="0" type="xstring" value="June"/>
+                        <entry key="1" type="xstring" value="October"/>
+                        <entry key="2" type="xstring" value="December"/>
+                        <entry key="3" type="xstring" value="May"/>
+                        <entry key="4" type="xstring" value="September"/>
+                        <entry key="5" type="xstring" value="March"/>
+                        <entry key="6" type="xstring" value="July"/>
+                        <entry key="7" type="xstring" value="January"/>
+                        <entry key="8" type="xstring" value="February"/>
+                        <entry key="9" type="xstring" value="April"/>
+                        <entry key="10" type="xstring" value="August"/>
+                        <entry key="11" type="xstring" value="Novembro"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="12"/>
+                        <entry key="0" type="xlong" value="101"/>
+                        <entry key="1" type="xlong" value="112"/>
+                        <entry key="2" type="xlong" value="97"/>
+                        <entry key="3" type="xlong" value="83"/>
+                        <entry key="4" type="xlong" value="119"/>
+                        <entry key="5" type="xlong" value="65"/>
+                        <entry key="6" type="xlong" value="97"/>
+                        <entry key="7" type="xlong" value="113"/>
+                        <entry key="8" type="xlong" value="110"/>
+                        <entry key="9" type="xlong" value="81"/>
+                        <entry key="10" type="xlong" value="99"/>
+                        <entry key="11" type="xlong" value="118"/>
+                    </config>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="13"/>
+                        <entry key="0" type="xstring" value="June"/>
+                        <entry key="1" type="xstring" value="May"/>
+                        <entry key="2" type="xstring" value="September"/>
+                        <entry key="3" type="xstring" value="March"/>
+                        <entry key="4" type="xstring" value="April"/>
+                        <entry key="5" type="xstring" value="August"/>
+                        <entry key="6" type="xstring" value="Novembro"/>
+                        <entry key="7" type="xstring" value="October"/>
+                        <entry key="8" type="xstring" value="December"/>
+                        <entry key="9" type="xstring" value="Unknown"/>
+                        <entry key="10" type="xstring" value="July"/>
+                        <entry key="11" type="xstring" value="January"/>
+                        <entry key="12" type="xstring" value="February"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="13"/>
+                        <entry key="0" type="xlong" value="1898"/>
+                        <entry key="1" type="xlong" value="1609"/>
+                        <entry key="2" type="xlong" value="1817"/>
+                        <entry key="3" type="xlong" value="1555"/>
+                        <entry key="4" type="xlong" value="1404"/>
+                        <entry key="5" type="xlong" value="1951"/>
+                        <entry key="6" type="xlong" value="1884"/>
+                        <entry key="7" type="xlong" value="1953"/>
+                        <entry key="8" type="xlong" value="1815"/>
+                        <entry key="9" type="xlong" value="1"/>
+                        <entry key="10" type="xlong" value="1938"/>
+                        <entry key="11" type="xlong" value="1926"/>
+                        <entry key="12" type="xlong" value="1796"/>
+                    </config>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="13"/>
+                        <entry key="0" type="xstring" value="June"/>
+                        <entry key="1" type="xstring" value="May"/>
+                        <entry key="2" type="xstring" value="September"/>
+                        <entry key="3" type="xstring" value="March"/>
+                        <entry key="4" type="xstring" value="April"/>
+                        <entry key="5" type="xstring" value="August"/>
+                        <entry key="6" type="xstring" value="Novembro"/>
+                        <entry key="7" type="xstring" value="October"/>
+                        <entry key="8" type="xstring" value="December"/>
+                        <entry key="9" type="xstring" value="Unknown"/>
+                        <entry key="10" type="xstring" value="July"/>
+                        <entry key="11" type="xstring" value="January"/>
+                        <entry key="12" type="xstring" value="February"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="13"/>
+                        <entry key="0" type="xlong" value="37"/>
+                        <entry key="1" type="xlong" value="22"/>
+                        <entry key="2" type="xlong" value="35"/>
+                        <entry key="3" type="xlong" value="20"/>
+                        <entry key="4" type="xlong" value="22"/>
+                        <entry key="5" type="xlong" value="40"/>
+                        <entry key="6" type="xlong" value="32"/>
+                        <entry key="7" type="xlong" value="22"/>
+                        <entry key="8" type="xlong" value="36"/>
+                        <entry key="9" type="xlong" value="1"/>
+                        <entry key="10" type="xlong" value="38"/>
+                        <entry key="11" type="xlong" value="20"/>
+                        <entry key="12" type="xlong" value="20"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_1">
+            <entry key="attributeName" type="xstring" value="Case WeekDay"/>
+            <entry key="type" type="xstring" value="NominalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="maxNoOfAttrs" type="xlong" value="20"/>
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="attributeValues">
+                    <entry key="array-size" type="xint" value="8"/>
+                    <entry key="0" type="xstring" value="Monday"/>
+                    <entry key="1" type="xstring" value="Tuesday"/>
+                    <entry key="2" type="xstring" value="Wednesday"/>
+                    <entry key="3" type="xstring" value="Thursday"/>
+                    <entry key="4" type="xstring" value="Friday"/>
+                    <entry key="5" type="xstring" value="Saturday"/>
+                    <entry key="6" type="xstring" value="Sunday"/>
+                    <entry key="7" type="xstring" value="Unknown"/>
+                </config>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="7"/>
+                        <entry key="0" type="xstring" value="Monday"/>
+                        <entry key="1" type="xstring" value="Thursday"/>
+                        <entry key="2" type="xstring" value="Friday"/>
+                        <entry key="3" type="xstring" value="Sunday"/>
+                        <entry key="4" type="xstring" value="Wednesday"/>
+                        <entry key="5" type="xstring" value="Tuesday"/>
+                        <entry key="6" type="xstring" value="Saturday"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="7"/>
+                        <entry key="0" type="xlong" value="3827"/>
+                        <entry key="1" type="xlong" value="4165"/>
+                        <entry key="2" type="xlong" value="4548"/>
+                        <entry key="3" type="xlong" value="3176"/>
+                        <entry key="4" type="xlong" value="4077"/>
+                        <entry key="5" type="xlong" value="4105"/>
+                        <entry key="6" type="xlong" value="3772"/>
+                    </config>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="7"/>
+                        <entry key="0" type="xstring" value="Monday"/>
+                        <entry key="1" type="xstring" value="Thursday"/>
+                        <entry key="2" type="xstring" value="Friday"/>
+                        <entry key="3" type="xstring" value="Sunday"/>
+                        <entry key="4" type="xstring" value="Wednesday"/>
+                        <entry key="5" type="xstring" value="Tuesday"/>
+                        <entry key="6" type="xstring" value="Saturday"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="7"/>
+                        <entry key="0" type="xlong" value="151"/>
+                        <entry key="1" type="xlong" value="163"/>
+                        <entry key="2" type="xlong" value="197"/>
+                        <entry key="3" type="xlong" value="137"/>
+                        <entry key="4" type="xlong" value="192"/>
+                        <entry key="5" type="xlong" value="174"/>
+                        <entry key="6" type="xlong" value="181"/>
+                    </config>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xstring" value="Monday"/>
+                        <entry key="1" type="xstring" value="Thursday"/>
+                        <entry key="2" type="xstring" value="Unknown"/>
+                        <entry key="3" type="xstring" value="Friday"/>
+                        <entry key="4" type="xstring" value="Sunday"/>
+                        <entry key="5" type="xstring" value="Wednesday"/>
+                        <entry key="6" type="xstring" value="Tuesday"/>
+                        <entry key="7" type="xstring" value="Saturday"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xlong" value="3054"/>
+                        <entry key="1" type="xlong" value="3179"/>
+                        <entry key="2" type="xlong" value="1"/>
+                        <entry key="3" type="xlong" value="3640"/>
+                        <entry key="4" type="xlong" value="2433"/>
+                        <entry key="5" type="xlong" value="3128"/>
+                        <entry key="6" type="xlong" value="3104"/>
+                        <entry key="7" type="xlong" value="3008"/>
+                    </config>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xstring" value="Monday"/>
+                        <entry key="1" type="xstring" value="Thursday"/>
+                        <entry key="2" type="xstring" value="Unknown"/>
+                        <entry key="3" type="xstring" value="Friday"/>
+                        <entry key="4" type="xstring" value="Sunday"/>
+                        <entry key="5" type="xstring" value="Wednesday"/>
+                        <entry key="6" type="xstring" value="Tuesday"/>
+                        <entry key="7" type="xstring" value="Saturday"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xlong" value="41"/>
+                        <entry key="1" type="xlong" value="54"/>
+                        <entry key="2" type="xlong" value="1"/>
+                        <entry key="3" type="xlong" value="62"/>
+                        <entry key="4" type="xlong" value="52"/>
+                        <entry key="5" type="xlong" value="45"/>
+                        <entry key="6" type="xlong" value="45"/>
+                        <entry key="7" type="xlong" value="45"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_2">
+            <entry key="attributeName" type="xstring" value="Case Severity"/>
+            <entry key="type" type="xstring" value="NominalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="maxNoOfAttrs" type="xlong" value="20"/>
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="attributeValues">
+                    <entry key="array-size" type="xint" value="2"/>
+                    <entry key="0" type="xstring" value="No Fatalities"/>
+                    <entry key="1" type="xstring" value="One or more Fatalities"/>
+                </config>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="2"/>
+                        <entry key="0" type="xstring" value="One or more Fatalities"/>
+                        <entry key="1" type="xstring" value="No Fatalities"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="2"/>
+                        <entry key="0" type="xlong" value="234"/>
+                        <entry key="1" type="xlong" value="27436"/>
+                    </config>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="2"/>
+                        <entry key="0" type="xstring" value="One or more Fatalities"/>
+                        <entry key="1" type="xstring" value="No Fatalities"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="2"/>
+                        <entry key="0" type="xlong" value="9"/>
+                        <entry key="1" type="xlong" value="1186"/>
+                    </config>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="2"/>
+                        <entry key="0" type="xstring" value="One or more Fatalities"/>
+                        <entry key="1" type="xstring" value="No Fatalities"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="2"/>
+                        <entry key="0" type="xlong" value="200"/>
+                        <entry key="1" type="xlong" value="21347"/>
+                    </config>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="1"/>
+                        <entry key="0" type="xstring" value="One or more Fatalities"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="1"/>
+                        <entry key="0" type="xlong" value="345"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_3">
+            <entry key="attributeName" type="xstring" value="Case Num_Vehicles"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="mean" type="xdouble" value="1.7999999999999996"/>
+                    <entry key="sd" type="xdouble" value="2.2652583404188604"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="mean" type="xdouble" value="2.099581589958158"/>
+                    <entry key="sd" type="xdouble" value="1.1190260297563126"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="mean" type="xdouble" value="1.9552222623780189"/>
+                    <entry key="sd" type="xdouble" value="1.8125053050886761"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="mean" type="xdouble" value="2.306492783218097"/>
+                    <entry key="sd" type="xdouble" value="1.8833512819990847"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_4">
+            <entry key="attributeName" type="xstring" value="Case Collision Config"/>
+            <entry key="type" type="xstring" value="NominalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="maxNoOfAttrs" type="xlong" value="20"/>
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="attributeValues">
+                    <entry key="array-size" type="xint" value="20"/>
+                    <entry key="0" type="xstring" value="2VDD - Approaching Side Swipe"/>
+                    <entry key="1" type="xstring" value="1V - Ran off Right Shoulder"/>
+                    <entry key="2" type="xstring" value="2VDD - Left Turn Across Traffic"/>
+                    <entry key="3" type="xstring" value="1V - Rollover on roadway"/>
+                    <entry key="4" type="xstring" value="1V - Ran off Left Shoulder"/>
+                    <entry key="5" type="xstring" value="2VSD - Right Turn Conflict"/>
+                    <entry key="6" type="xstring" value="2VSD - Rear-End"/>
+                    <entry key="7" type="xstring" value="1V - Hit Moving Object"/>
+                    <entry key="8" type="xstring" value="2VDD - Head-On"/>
+                    <entry key="9" type="xstring" value="Other"/>
+                    <entry key="10" type="xstring" value="1V - Hit Stationary Object"/>
+                    <entry key="11" type="xstring" value="2VDD - Right Angle"/>
+                    <entry key="12" type="xstring" value="2VDD - Right Turn Conflict"/>
+                    <entry key="13" type="xstring" value="2VSD - Left Turn Conflict"/>
+                    <entry key="14" type="xstring" value="1V - Other"/>
+                    <entry key="15" type="xstring" value="2VDD - Other"/>
+                    <entry key="16" type="xstring" value="2VSD - Side Swipe"/>
+                    <entry key="17" type="xstring" value="Hit a Parked Vehicle"/>
+                    <entry key="18" type="xstring" value="Unknow"/>
+                    <entry key="19" type="xstring" value="2VSD - Other"/>
+                </config>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="20"/>
+                        <entry key="0" type="xstring" value="2VDD - Head-On"/>
+                        <entry key="1" type="xstring" value="2VDD - Right Angle"/>
+                        <entry key="2" type="xstring" value="Unknow"/>
+                        <entry key="3" type="xstring" value="2VDD - Right Turn Conflict"/>
+                        <entry key="4" type="xstring" value="Hit a Parked Vehicle"/>
+                        <entry key="5" type="xstring" value="1V - Ran off Left Shoulder"/>
+                        <entry key="6" type="xstring" value="2VSD - Right Turn Conflict"/>
+                        <entry key="7" type="xstring" value="2VDD - Approaching Side Swipe"/>
+                        <entry key="8" type="xstring" value="2VSD - Side Swipe"/>
+                        <entry key="9" type="xstring" value="2VDD - Left Turn Across Traffic"/>
+                        <entry key="10" type="xstring" value="2VSD - Left Turn Conflict"/>
+                        <entry key="11" type="xstring" value="1V - Other"/>
+                        <entry key="12" type="xstring" value="1V - Hit Moving Object"/>
+                        <entry key="13" type="xstring" value="1V - Hit Stationary Object"/>
+                        <entry key="14" type="xstring" value="2VSD - Rear-End"/>
+                        <entry key="15" type="xstring" value="2VSD - Other"/>
+                        <entry key="16" type="xstring" value="1V - Ran off Right Shoulder"/>
+                        <entry key="17" type="xstring" value="1V - Rollover on roadway"/>
+                        <entry key="18" type="xstring" value="Other"/>
+                        <entry key="19" type="xstring" value="2VDD - Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="20"/>
+                        <entry key="0" type="xlong" value="972"/>
+                        <entry key="1" type="xlong" value="3707"/>
+                        <entry key="2" type="xlong" value="878"/>
+                        <entry key="3" type="xlong" value="159"/>
+                        <entry key="4" type="xlong" value="251"/>
+                        <entry key="5" type="xlong" value="943"/>
+                        <entry key="6" type="xlong" value="229"/>
+                        <entry key="7" type="xlong" value="321"/>
+                        <entry key="8" type="xlong" value="779"/>
+                        <entry key="9" type="xlong" value="1960"/>
+                        <entry key="10" type="xlong" value="276"/>
+                        <entry key="11" type="xlong" value="3079"/>
+                        <entry key="12" type="xlong" value="348"/>
+                        <entry key="13" type="xlong" value="1325"/>
+                        <entry key="14" type="xlong" value="6923"/>
+                        <entry key="15" type="xlong" value="98"/>
+                        <entry key="16" type="xlong" value="1483"/>
+                        <entry key="17" type="xlong" value="113"/>
+                        <entry key="18" type="xlong" value="1419"/>
+                        <entry key="19" type="xlong" value="2407"/>
+                    </config>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="17"/>
+                        <entry key="0" type="xstring" value="2VDD - Head-On"/>
+                        <entry key="1" type="xstring" value="2VDD - Right Angle"/>
+                        <entry key="2" type="xstring" value="Unknow"/>
+                        <entry key="3" type="xstring" value="2VDD - Right Turn Conflict"/>
+                        <entry key="4" type="xstring" value="Hit a Parked Vehicle"/>
+                        <entry key="5" type="xstring" value="1V - Ran off Left Shoulder"/>
+                        <entry key="6" type="xstring" value="2VSD - Right Turn Conflict"/>
+                        <entry key="7" type="xstring" value="2VDD - Approaching Side Swipe"/>
+                        <entry key="8" type="xstring" value="2VSD - Side Swipe"/>
+                        <entry key="9" type="xstring" value="2VDD - Left Turn Across Traffic"/>
+                        <entry key="10" type="xstring" value="2VSD - Left Turn Conflict"/>
+                        <entry key="11" type="xstring" value="1V - Hit Moving Object"/>
+                        <entry key="12" type="xstring" value="1V - Hit Stationary Object"/>
+                        <entry key="13" type="xstring" value="2VSD - Rear-End"/>
+                        <entry key="14" type="xstring" value="1V - Ran off Right Shoulder"/>
+                        <entry key="15" type="xstring" value="Other"/>
+                        <entry key="16" type="xstring" value="1V - Rollover on roadway"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="17"/>
+                        <entry key="0" type="xlong" value="13"/>
+                        <entry key="1" type="xlong" value="153"/>
+                        <entry key="2" type="xlong" value="10"/>
+                        <entry key="3" type="xlong" value="10"/>
+                        <entry key="4" type="xlong" value="38"/>
+                        <entry key="5" type="xlong" value="46"/>
+                        <entry key="6" type="xlong" value="8"/>
+                        <entry key="7" type="xlong" value="21"/>
+                        <entry key="8" type="xlong" value="39"/>
+                        <entry key="9" type="xlong" value="187"/>
+                        <entry key="10" type="xlong" value="11"/>
+                        <entry key="11" type="xlong" value="54"/>
+                        <entry key="12" type="xlong" value="67"/>
+                        <entry key="13" type="xlong" value="388"/>
+                        <entry key="14" type="xlong" value="82"/>
+                        <entry key="15" type="xlong" value="59"/>
+                        <entry key="16" type="xlong" value="9"/>
+                    </config>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="20"/>
+                        <entry key="0" type="xstring" value="2VDD - Head-On"/>
+                        <entry key="1" type="xstring" value="2VDD - Right Angle"/>
+                        <entry key="2" type="xstring" value="Unknow"/>
+                        <entry key="3" type="xstring" value="2VDD - Right Turn Conflict"/>
+                        <entry key="4" type="xstring" value="Hit a Parked Vehicle"/>
+                        <entry key="5" type="xstring" value="1V - Ran off Left Shoulder"/>
+                        <entry key="6" type="xstring" value="2VSD - Right Turn Conflict"/>
+                        <entry key="7" type="xstring" value="2VDD - Approaching Side Swipe"/>
+                        <entry key="8" type="xstring" value="2VSD - Side Swipe"/>
+                        <entry key="9" type="xstring" value="2VDD - Left Turn Across Traffic"/>
+                        <entry key="10" type="xstring" value="2VSD - Left Turn Conflict"/>
+                        <entry key="11" type="xstring" value="1V - Other"/>
+                        <entry key="12" type="xstring" value="1V - Hit Stationary Object"/>
+                        <entry key="13" type="xstring" value="1V - Hit Moving Object"/>
+                        <entry key="14" type="xstring" value="2VSD - Rear-End"/>
+                        <entry key="15" type="xstring" value="2VSD - Other"/>
+                        <entry key="16" type="xstring" value="Other"/>
+                        <entry key="17" type="xstring" value="2VDD - Other"/>
+                        <entry key="18" type="xstring" value="1V - Ran off Right Shoulder"/>
+                        <entry key="19" type="xstring" value="1V - Rollover on roadway"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="20"/>
+                        <entry key="0" type="xlong" value="571"/>
+                        <entry key="1" type="xlong" value="3040"/>
+                        <entry key="2" type="xlong" value="706"/>
+                        <entry key="3" type="xlong" value="141"/>
+                        <entry key="4" type="xlong" value="180"/>
+                        <entry key="5" type="xlong" value="162"/>
+                        <entry key="6" type="xlong" value="171"/>
+                        <entry key="7" type="xlong" value="217"/>
+                        <entry key="8" type="xlong" value="892"/>
+                        <entry key="9" type="xlong" value="1610"/>
+                        <entry key="10" type="xlong" value="241"/>
+                        <entry key="11" type="xlong" value="1637"/>
+                        <entry key="12" type="xlong" value="466"/>
+                        <entry key="13" type="xlong" value="102"/>
+                        <entry key="14" type="xlong" value="7641"/>
+                        <entry key="15" type="xlong" value="84"/>
+                        <entry key="16" type="xlong" value="1188"/>
+                        <entry key="17" type="xlong" value="2243"/>
+                        <entry key="18" type="xlong" value="240"/>
+                        <entry key="19" type="xlong" value="15"/>
+                    </config>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="18"/>
+                        <entry key="0" type="xstring" value="2VDD - Head-On"/>
+                        <entry key="1" type="xstring" value="2VDD - Right Angle"/>
+                        <entry key="2" type="xstring" value="Unknow"/>
+                        <entry key="3" type="xstring" value="Hit a Parked Vehicle"/>
+                        <entry key="4" type="xstring" value="1V - Ran off Left Shoulder"/>
+                        <entry key="5" type="xstring" value="2VSD - Right Turn Conflict"/>
+                        <entry key="6" type="xstring" value="2VDD - Approaching Side Swipe"/>
+                        <entry key="7" type="xstring" value="2VSD - Side Swipe"/>
+                        <entry key="8" type="xstring" value="2VDD - Left Turn Across Traffic"/>
+                        <entry key="9" type="xstring" value="2VSD - Left Turn Conflict"/>
+                        <entry key="10" type="xstring" value="1V - Other"/>
+                        <entry key="11" type="xstring" value="1V - Hit Stationary Object"/>
+                        <entry key="12" type="xstring" value="1V - Hit Moving Object"/>
+                        <entry key="13" type="xstring" value="2VSD - Rear-End"/>
+                        <entry key="14" type="xstring" value="2VDD - Other"/>
+                        <entry key="15" type="xstring" value="1V - Ran off Right Shoulder"/>
+                        <entry key="16" type="xstring" value="Other"/>
+                        <entry key="17" type="xstring" value="1V - Rollover on roadway"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="18"/>
+                        <entry key="0" type="xlong" value="66"/>
+                        <entry key="1" type="xlong" value="29"/>
+                        <entry key="2" type="xlong" value="14"/>
+                        <entry key="3" type="xlong" value="4"/>
+                        <entry key="4" type="xlong" value="37"/>
+                        <entry key="5" type="xlong" value="6"/>
+                        <entry key="6" type="xlong" value="3"/>
+                        <entry key="7" type="xlong" value="3"/>
+                        <entry key="8" type="xlong" value="8"/>
+                        <entry key="9" type="xlong" value="2"/>
+                        <entry key="10" type="xlong" value="64"/>
+                        <entry key="11" type="xlong" value="22"/>
+                        <entry key="12" type="xlong" value="5"/>
+                        <entry key="13" type="xlong" value="20"/>
+                        <entry key="14" type="xlong" value="22"/>
+                        <entry key="15" type="xlong" value="28"/>
+                        <entry key="16" type="xlong" value="11"/>
+                        <entry key="17" type="xlong" value="1"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_5">
+            <entry key="attributeName" type="xstring" value="Case Road Config"/>
+            <entry key="type" type="xstring" value="NominalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="maxNoOfAttrs" type="xlong" value="20"/>
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="attributeValues">
+                    <entry key="array-size" type="xint" value="12"/>
+                    <entry key="0" type="xstring" value="Non-intersection"/>
+                    <entry key="1" type="xstring" value="Roadway Intersection"/>
+                    <entry key="2" type="xstring" value="Unkown"/>
+                    <entry key="3" type="xstring" value="Entrance/Exit Intersection"/>
+                    <entry key="4" type="xstring" value="Passing or climbing lane"/>
+                    <entry key="5" type="xstring" value="Other"/>
+                    <entry key="6" type="xstring" value="Bridge, overpass, viaduct"/>
+                    <entry key="7" type="xstring" value="Ramp"/>
+                    <entry key="8" type="xstring" value="Tunnel or underpass"/>
+                    <entry key="9" type="xstring" value="Traffic circle"/>
+                    <entry key="10" type="xstring" value="Railroad level crossing"/>
+                    <entry key="11" type="xstring" value="Express lane of a freeway"/>
+                </config>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="12"/>
+                        <entry key="0" type="xstring" value="Roadway Intersection"/>
+                        <entry key="1" type="xstring" value="Railroad level crossing"/>
+                        <entry key="2" type="xstring" value="Ramp"/>
+                        <entry key="3" type="xstring" value="Passing or climbing lane"/>
+                        <entry key="4" type="xstring" value="Unkown"/>
+                        <entry key="5" type="xstring" value="Traffic circle"/>
+                        <entry key="6" type="xstring" value="Bridge, overpass, viaduct"/>
+                        <entry key="7" type="xstring" value="Express lane of a freeway"/>
+                        <entry key="8" type="xstring" value="Tunnel or underpass"/>
+                        <entry key="9" type="xstring" value="Non-intersection"/>
+                        <entry key="10" type="xstring" value="Entrance/Exit Intersection"/>
+                        <entry key="11" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="12"/>
+                        <entry key="0" type="xlong" value="11760"/>
+                        <entry key="1" type="xlong" value="75"/>
+                        <entry key="2" type="xlong" value="77"/>
+                        <entry key="3" type="xlong" value="4"/>
+                        <entry key="4" type="xlong" value="1480"/>
+                        <entry key="5" type="xlong" value="34"/>
+                        <entry key="6" type="xlong" value="214"/>
+                        <entry key="7" type="xlong" value="6"/>
+                        <entry key="8" type="xlong" value="29"/>
+                        <entry key="9" type="xlong" value="12037"/>
+                        <entry key="10" type="xlong" value="973"/>
+                        <entry key="11" type="xlong" value="981"/>
+                    </config>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="9"/>
+                        <entry key="0" type="xstring" value="Roadway Intersection"/>
+                        <entry key="1" type="xstring" value="Railroad level crossing"/>
+                        <entry key="2" type="xstring" value="Ramp"/>
+                        <entry key="3" type="xstring" value="Unkown"/>
+                        <entry key="4" type="xstring" value="Bridge, overpass, viaduct"/>
+                        <entry key="5" type="xstring" value="Tunnel or underpass"/>
+                        <entry key="6" type="xstring" value="Entrance/Exit Intersection"/>
+                        <entry key="7" type="xstring" value="Non-intersection"/>
+                        <entry key="8" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="9"/>
+                        <entry key="0" type="xlong" value="597"/>
+                        <entry key="1" type="xlong" value="4"/>
+                        <entry key="2" type="xlong" value="21"/>
+                        <entry key="3" type="xlong" value="33"/>
+                        <entry key="4" type="xlong" value="9"/>
+                        <entry key="5" type="xlong" value="6"/>
+                        <entry key="6" type="xlong" value="78"/>
+                        <entry key="7" type="xlong" value="444"/>
+                        <entry key="8" type="xlong" value="3"/>
+                    </config>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="12"/>
+                        <entry key="0" type="xstring" value="Roadway Intersection"/>
+                        <entry key="1" type="xstring" value="Railroad level crossing"/>
+                        <entry key="2" type="xstring" value="Ramp"/>
+                        <entry key="3" type="xstring" value="Passing or climbing lane"/>
+                        <entry key="4" type="xstring" value="Unkown"/>
+                        <entry key="5" type="xstring" value="Traffic circle"/>
+                        <entry key="6" type="xstring" value="Bridge, overpass, viaduct"/>
+                        <entry key="7" type="xstring" value="Express lane of a freeway"/>
+                        <entry key="8" type="xstring" value="Tunnel or underpass"/>
+                        <entry key="9" type="xstring" value="Non-intersection"/>
+                        <entry key="10" type="xstring" value="Entrance/Exit Intersection"/>
+                        <entry key="11" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="12"/>
+                        <entry key="0" type="xlong" value="10196"/>
+                        <entry key="1" type="xlong" value="28"/>
+                        <entry key="2" type="xlong" value="67"/>
+                        <entry key="3" type="xlong" value="3"/>
+                        <entry key="4" type="xlong" value="1230"/>
+                        <entry key="5" type="xlong" value="19"/>
+                        <entry key="6" type="xlong" value="183"/>
+                        <entry key="7" type="xlong" value="5"/>
+                        <entry key="8" type="xlong" value="23"/>
+                        <entry key="9" type="xlong" value="8440"/>
+                        <entry key="10" type="xlong" value="826"/>
+                        <entry key="11" type="xlong" value="527"/>
+                    </config>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="7"/>
+                        <entry key="0" type="xstring" value="Roadway Intersection"/>
+                        <entry key="1" type="xstring" value="Railroad level crossing"/>
+                        <entry key="2" type="xstring" value="Unkown"/>
+                        <entry key="3" type="xstring" value="Bridge, overpass, viaduct"/>
+                        <entry key="4" type="xstring" value="Non-intersection"/>
+                        <entry key="5" type="xstring" value="Entrance/Exit Intersection"/>
+                        <entry key="6" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="7"/>
+                        <entry key="0" type="xlong" value="76"/>
+                        <entry key="1" type="xlong" value="2"/>
+                        <entry key="2" type="xlong" value="17"/>
+                        <entry key="3" type="xlong" value="2"/>
+                        <entry key="4" type="xlong" value="216"/>
+                        <entry key="5" type="xlong" value="11"/>
+                        <entry key="6" type="xlong" value="21"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_6">
+            <entry key="attributeName" type="xstring" value="Case Weather"/>
+            <entry key="type" type="xstring" value="NominalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="maxNoOfAttrs" type="xlong" value="20"/>
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="attributeValues">
+                    <entry key="array-size" type="xint" value="9"/>
+                    <entry key="0" type="xstring" value="Overcast/Cloudy"/>
+                    <entry key="1" type="xstring" value="Clear and Sunny"/>
+                    <entry key="2" type="xstring" value="Snowing"/>
+                    <entry key="3" type="xstring" value="Raining"/>
+                    <entry key="4" type="xstring" value="Freezing rain, sleet, hail"/>
+                    <entry key="5" type="xstring" value="Visibility limitation"/>
+                    <entry key="6" type="xstring" value="Strong wind"/>
+                    <entry key="7" type="xstring" value="Unkown"/>
+                    <entry key="8" type="xstring" value="Other"/>
+                </config>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="9"/>
+                        <entry key="0" type="xstring" value="Snowing"/>
+                        <entry key="1" type="xstring" value="Freezing rain, sleet, hail"/>
+                        <entry key="2" type="xstring" value="Strong wind"/>
+                        <entry key="3" type="xstring" value="Visibility limitation"/>
+                        <entry key="4" type="xstring" value="Overcast/Cloudy"/>
+                        <entry key="5" type="xstring" value="Unkown"/>
+                        <entry key="6" type="xstring" value="Clear and Sunny"/>
+                        <entry key="7" type="xstring" value="Raining"/>
+                        <entry key="8" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="9"/>
+                        <entry key="0" type="xlong" value="1916"/>
+                        <entry key="1" type="xlong" value="206"/>
+                        <entry key="2" type="xlong" value="102"/>
+                        <entry key="3" type="xlong" value="559"/>
+                        <entry key="4" type="xlong" value="2558"/>
+                        <entry key="5" type="xlong" value="358"/>
+                        <entry key="6" type="xlong" value="19603"/>
+                        <entry key="7" type="xlong" value="2316"/>
+                        <entry key="8" type="xlong" value="52"/>
+                    </config>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="9"/>
+                        <entry key="0" type="xstring" value="Snowing"/>
+                        <entry key="1" type="xstring" value="Freezing rain, sleet, hail"/>
+                        <entry key="2" type="xstring" value="Strong wind"/>
+                        <entry key="3" type="xstring" value="Visibility limitation"/>
+                        <entry key="4" type="xstring" value="Overcast/Cloudy"/>
+                        <entry key="5" type="xstring" value="Unkown"/>
+                        <entry key="6" type="xstring" value="Clear and Sunny"/>
+                        <entry key="7" type="xstring" value="Raining"/>
+                        <entry key="8" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="9"/>
+                        <entry key="0" type="xlong" value="87"/>
+                        <entry key="1" type="xlong" value="9"/>
+                        <entry key="2" type="xlong" value="6"/>
+                        <entry key="3" type="xlong" value="24"/>
+                        <entry key="4" type="xlong" value="184"/>
+                        <entry key="5" type="xlong" value="135"/>
+                        <entry key="6" type="xlong" value="664"/>
+                        <entry key="7" type="xlong" value="83"/>
+                        <entry key="8" type="xlong" value="3"/>
+                    </config>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="9"/>
+                        <entry key="0" type="xstring" value="Snowing"/>
+                        <entry key="1" type="xstring" value="Strong wind"/>
+                        <entry key="2" type="xstring" value="Freezing rain, sleet, hail"/>
+                        <entry key="3" type="xstring" value="Visibility limitation"/>
+                        <entry key="4" type="xstring" value="Overcast/Cloudy"/>
+                        <entry key="5" type="xstring" value="Unkown"/>
+                        <entry key="6" type="xstring" value="Clear and Sunny"/>
+                        <entry key="7" type="xstring" value="Raining"/>
+                        <entry key="8" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="9"/>
+                        <entry key="0" type="xlong" value="1350"/>
+                        <entry key="1" type="xlong" value="67"/>
+                        <entry key="2" type="xlong" value="121"/>
+                        <entry key="3" type="xlong" value="441"/>
+                        <entry key="4" type="xlong" value="1652"/>
+                        <entry key="5" type="xlong" value="174"/>
+                        <entry key="6" type="xlong" value="15865"/>
+                        <entry key="7" type="xlong" value="1818"/>
+                        <entry key="8" type="xlong" value="59"/>
+                    </config>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xstring" value="Snowing"/>
+                        <entry key="1" type="xstring" value="Freezing rain, sleet, hail"/>
+                        <entry key="2" type="xstring" value="Visibility limitation"/>
+                        <entry key="3" type="xstring" value="Overcast/Cloudy"/>
+                        <entry key="4" type="xstring" value="Unkown"/>
+                        <entry key="5" type="xstring" value="Clear and Sunny"/>
+                        <entry key="6" type="xstring" value="Raining"/>
+                        <entry key="7" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xlong" value="19"/>
+                        <entry key="1" type="xlong" value="2"/>
+                        <entry key="2" type="xlong" value="5"/>
+                        <entry key="3" type="xlong" value="35"/>
+                        <entry key="4" type="xlong" value="7"/>
+                        <entry key="5" type="xlong" value="249"/>
+                        <entry key="6" type="xlong" value="25"/>
+                        <entry key="7" type="xlong" value="3"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_7">
+            <entry key="attributeName" type="xstring" value="Case Road Condition"/>
+            <entry key="type" type="xstring" value="NominalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="maxNoOfAttrs" type="xlong" value="20"/>
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="attributeValues">
+                    <entry key="array-size" type="xint" value="11"/>
+                    <entry key="0" type="xstring" value="Icy"/>
+                    <entry key="1" type="xstring" value="Wet"/>
+                    <entry key="2" type="xstring" value="Slush/Wet Snow"/>
+                    <entry key="3" type="xstring" value="Snow"/>
+                    <entry key="4" type="xstring" value="Dry"/>
+                    <entry key="5" type="xstring" value="Unkown"/>
+                    <entry key="6" type="xstring" value="Other"/>
+                    <entry key="7" type="xstring" value="Sand/Gravel/Dirt"/>
+                    <entry key="8" type="xstring" value="Flooded"/>
+                    <entry key="9" type="xstring" value="Muddy"/>
+                    <entry key="10" type="xstring" value="Oil"/>
+                </config>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="11"/>
+                        <entry key="0" type="xstring" value="Slush/Wet Snow"/>
+                        <entry key="1" type="xstring" value="Muddy"/>
+                        <entry key="2" type="xstring" value="Flooded"/>
+                        <entry key="3" type="xstring" value="Oil"/>
+                        <entry key="4" type="xstring" value="Snow"/>
+                        <entry key="5" type="xstring" value="Wet"/>
+                        <entry key="6" type="xstring" value="Unkown"/>
+                        <entry key="7" type="xstring" value="Dry"/>
+                        <entry key="8" type="xstring" value="Sand/Gravel/Dirt"/>
+                        <entry key="9" type="xstring" value="Icy"/>
+                        <entry key="10" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="11"/>
+                        <entry key="0" type="xlong" value="478"/>
+                        <entry key="1" type="xlong" value="18"/>
+                        <entry key="2" type="xlong" value="4"/>
+                        <entry key="3" type="xlong" value="4"/>
+                        <entry key="4" type="xlong" value="1337"/>
+                        <entry key="5" type="xlong" value="4379"/>
+                        <entry key="6" type="xlong" value="233"/>
+                        <entry key="7" type="xlong" value="18093"/>
+                        <entry key="8" type="xlong" value="107"/>
+                        <entry key="9" type="xlong" value="1975"/>
+                        <entry key="10" type="xlong" value="1042"/>
+                    </config>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="0" type="xstring" value="Slush/Wet Snow"/>
+                        <entry key="1" type="xstring" value="Flooded"/>
+                        <entry key="2" type="xstring" value="Muddy"/>
+                        <entry key="3" type="xstring" value="Snow"/>
+                        <entry key="4" type="xstring" value="Wet"/>
+                        <entry key="5" type="xstring" value="Unkown"/>
+                        <entry key="6" type="xstring" value="Dry"/>
+                        <entry key="7" type="xstring" value="Sand/Gravel/Dirt"/>
+                        <entry key="8" type="xstring" value="Icy"/>
+                        <entry key="9" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="0" type="xlong" value="27"/>
+                        <entry key="1" type="xlong" value="4"/>
+                        <entry key="2" type="xlong" value="1"/>
+                        <entry key="3" type="xlong" value="60"/>
+                        <entry key="4" type="xlong" value="179"/>
+                        <entry key="5" type="xlong" value="54"/>
+                        <entry key="6" type="xlong" value="686"/>
+                        <entry key="7" type="xlong" value="10"/>
+                        <entry key="8" type="xlong" value="173"/>
+                        <entry key="9" type="xlong" value="1"/>
+                    </config>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="11"/>
+                        <entry key="0" type="xstring" value="Slush/Wet Snow"/>
+                        <entry key="1" type="xstring" value="Muddy"/>
+                        <entry key="2" type="xstring" value="Flooded"/>
+                        <entry key="3" type="xstring" value="Oil"/>
+                        <entry key="4" type="xstring" value="Snow"/>
+                        <entry key="5" type="xstring" value="Wet"/>
+                        <entry key="6" type="xstring" value="Unkown"/>
+                        <entry key="7" type="xstring" value="Dry"/>
+                        <entry key="8" type="xstring" value="Sand/Gravel/Dirt"/>
+                        <entry key="9" type="xstring" value="Icy"/>
+                        <entry key="10" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="11"/>
+                        <entry key="0" type="xlong" value="279"/>
+                        <entry key="1" type="xlong" value="7"/>
+                        <entry key="2" type="xlong" value="2"/>
+                        <entry key="3" type="xlong" value="2"/>
+                        <entry key="4" type="xlong" value="969"/>
+                        <entry key="5" type="xlong" value="3392"/>
+                        <entry key="6" type="xlong" value="140"/>
+                        <entry key="7" type="xlong" value="14618"/>
+                        <entry key="8" type="xlong" value="25"/>
+                        <entry key="9" type="xlong" value="1150"/>
+                        <entry key="10" type="xlong" value="963"/>
+                    </config>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="9"/>
+                        <entry key="0" type="xstring" value="Slush/Wet Snow"/>
+                        <entry key="1" type="xstring" value="Muddy"/>
+                        <entry key="2" type="xstring" value="Snow"/>
+                        <entry key="3" type="xstring" value="Wet"/>
+                        <entry key="4" type="xstring" value="Unkown"/>
+                        <entry key="5" type="xstring" value="Dry"/>
+                        <entry key="6" type="xstring" value="Sand/Gravel/Dirt"/>
+                        <entry key="7" type="xstring" value="Icy"/>
+                        <entry key="8" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="9"/>
+                        <entry key="0" type="xlong" value="7"/>
+                        <entry key="1" type="xlong" value="1"/>
+                        <entry key="2" type="xlong" value="13"/>
+                        <entry key="3" type="xlong" value="47"/>
+                        <entry key="4" type="xlong" value="7"/>
+                        <entry key="5" type="xlong" value="238"/>
+                        <entry key="6" type="xlong" value="4"/>
+                        <entry key="7" type="xlong" value="19"/>
+                        <entry key="8" type="xlong" value="9"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_8">
+            <entry key="attributeName" type="xstring" value="Case Road Inclination"/>
+            <entry key="type" type="xstring" value="NominalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="maxNoOfAttrs" type="xlong" value="20"/>
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="attributeValues">
+                    <entry key="array-size" type="xint" value="8"/>
+                    <entry key="0" type="xstring" value="Curved and level"/>
+                    <entry key="1" type="xstring" value="Straight and Level"/>
+                    <entry key="2" type="xstring" value="Unkown"/>
+                    <entry key="3" type="xstring" value="Straight with gradient"/>
+                    <entry key="4" type="xstring" value="Curved with gradient"/>
+                    <entry key="5" type="xstring" value="Bottom of hill or gradient"/>
+                    <entry key="6" type="xstring" value="Top of hill or gradient"/>
+                    <entry key="7" type="xstring" value="Other"/>
+                </config>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xstring" value="Curved and level"/>
+                        <entry key="1" type="xstring" value="Straight with gradient"/>
+                        <entry key="2" type="xstring" value="Curved with gradient"/>
+                        <entry key="3" type="xstring" value="Unkown"/>
+                        <entry key="4" type="xstring" value="Bottom of hill or gradient"/>
+                        <entry key="5" type="xstring" value="Top of hill or gradient"/>
+                        <entry key="6" type="xstring" value="Straight and Level"/>
+                        <entry key="7" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xlong" value="2038"/>
+                        <entry key="1" type="xlong" value="2066"/>
+                        <entry key="2" type="xlong" value="936"/>
+                        <entry key="3" type="xlong" value="1323"/>
+                        <entry key="4" type="xlong" value="317"/>
+                        <entry key="5" type="xlong" value="345"/>
+                        <entry key="6" type="xlong" value="20596"/>
+                        <entry key="7" type="xlong" value="49"/>
+                    </config>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="7"/>
+                        <entry key="0" type="xstring" value="Curved and level"/>
+                        <entry key="1" type="xstring" value="Straight with gradient"/>
+                        <entry key="2" type="xstring" value="Curved with gradient"/>
+                        <entry key="3" type="xstring" value="Unkown"/>
+                        <entry key="4" type="xstring" value="Top of hill or gradient"/>
+                        <entry key="5" type="xstring" value="Bottom of hill or gradient"/>
+                        <entry key="6" type="xstring" value="Straight and Level"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="7"/>
+                        <entry key="0" type="xlong" value="86"/>
+                        <entry key="1" type="xlong" value="88"/>
+                        <entry key="2" type="xlong" value="34"/>
+                        <entry key="3" type="xlong" value="59"/>
+                        <entry key="4" type="xlong" value="20"/>
+                        <entry key="5" type="xlong" value="19"/>
+                        <entry key="6" type="xlong" value="889"/>
+                    </config>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xstring" value="Curved and level"/>
+                        <entry key="1" type="xstring" value="Curved with gradient"/>
+                        <entry key="2" type="xstring" value="Straight with gradient"/>
+                        <entry key="3" type="xstring" value="Unkown"/>
+                        <entry key="4" type="xstring" value="Bottom of hill or gradient"/>
+                        <entry key="5" type="xstring" value="Top of hill or gradient"/>
+                        <entry key="6" type="xstring" value="Straight and Level"/>
+                        <entry key="7" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xlong" value="991"/>
+                        <entry key="1" type="xlong" value="471"/>
+                        <entry key="2" type="xlong" value="1667"/>
+                        <entry key="3" type="xlong" value="1327"/>
+                        <entry key="4" type="xlong" value="150"/>
+                        <entry key="5" type="xlong" value="194"/>
+                        <entry key="6" type="xlong" value="16707"/>
+                        <entry key="7" type="xlong" value="40"/>
+                    </config>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xstring" value="Curved and level"/>
+                        <entry key="1" type="xstring" value="Curved with gradient"/>
+                        <entry key="2" type="xstring" value="Straight with gradient"/>
+                        <entry key="3" type="xstring" value="Unkown"/>
+                        <entry key="4" type="xstring" value="Bottom of hill or gradient"/>
+                        <entry key="5" type="xstring" value="Top of hill or gradient"/>
+                        <entry key="6" type="xstring" value="Straight and Level"/>
+                        <entry key="7" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xlong" value="55"/>
+                        <entry key="1" type="xlong" value="38"/>
+                        <entry key="2" type="xlong" value="35"/>
+                        <entry key="3" type="xlong" value="11"/>
+                        <entry key="4" type="xlong" value="4"/>
+                        <entry key="5" type="xlong" value="2"/>
+                        <entry key="6" type="xlong" value="198"/>
+                        <entry key="7" type="xlong" value="2"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_9">
+            <entry key="attributeName" type="xstring" value="Case Traffic"/>
+            <entry key="type" type="xstring" value="NominalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="maxNoOfAttrs" type="xlong" value="20"/>
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="attributeValues">
+                    <entry key="array-size" type="xint" value="19"/>
+                    <entry key="0" type="xstring" value="No control present"/>
+                    <entry key="1" type="xstring" value="Markings on the road"/>
+                    <entry key="2" type="xstring" value="Traffic signals fully operational"/>
+                    <entry key="3" type="xstring" value="Unkown"/>
+                    <entry key="4" type="xstring" value="Pedestrian crosswalk"/>
+                    <entry key="5" type="xstring" value="Stop sign"/>
+                    <entry key="6" type="xstring" value="Yield sign"/>
+                    <entry key="7" type="xstring" value="Traffic signals in flashing mode"/>
+                    <entry key="8" type="xstring" value="Other"/>
+                    <entry key="9" type="xstring" value="School guard, flagman"/>
+                    <entry key="10" type="xstring" value="Railway crossing with signals/gates"/>
+                    <entry key="11" type="xstring" value="Warning sign"/>
+                    <entry key="12" type="xstring" value="Control device not specified"/>
+                    <entry key="13" type="xstring" value="No passing zone sign"/>
+                    <entry key="14" type="xstring" value="Railway crossing with signs only"/>
+                    <entry key="15" type="xstring" value="School bus lights flashing"/>
+                    <entry key="16" type="xstring" value="Police officer"/>
+                    <entry key="17" type="xstring" value="School crossing"/>
+                    <entry key="18" type="xstring" value="Reduced speed zone"/>
+                </config>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="19"/>
+                        <entry key="0" type="xstring" value="Railway crossing with signals/gates"/>
+                        <entry key="1" type="xstring" value="School crossing"/>
+                        <entry key="2" type="xstring" value="Warning sign"/>
+                        <entry key="3" type="xstring" value="Reduced speed zone"/>
+                        <entry key="4" type="xstring" value="Markings on the road"/>
+                        <entry key="5" type="xstring" value="Police officer"/>
+                        <entry key="6" type="xstring" value="School guard, flagman"/>
+                        <entry key="7" type="xstring" value="Traffic signals fully operational"/>
+                        <entry key="8" type="xstring" value="Traffic signals in flashing mode"/>
+                        <entry key="9" type="xstring" value="Control device not specified"/>
+                        <entry key="10" type="xstring" value="No control present"/>
+                        <entry key="11" type="xstring" value="Unkown"/>
+                        <entry key="12" type="xstring" value="Stop sign"/>
+                        <entry key="13" type="xstring" value="Pedestrian crosswalk"/>
+                        <entry key="14" type="xstring" value="No passing zone sign"/>
+                        <entry key="15" type="xstring" value="Railway crossing with signs only"/>
+                        <entry key="16" type="xstring" value="School bus lights flashing"/>
+                        <entry key="17" type="xstring" value="Yield sign"/>
+                        <entry key="18" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="19"/>
+                        <entry key="0" type="xlong" value="9"/>
+                        <entry key="1" type="xlong" value="1"/>
+                        <entry key="2" type="xlong" value="14"/>
+                        <entry key="3" type="xlong" value="9"/>
+                        <entry key="4" type="xlong" value="51"/>
+                        <entry key="5" type="xlong" value="5"/>
+                        <entry key="6" type="xlong" value="93"/>
+                        <entry key="7" type="xlong" value="7462"/>
+                        <entry key="8" type="xlong" value="97"/>
+                        <entry key="9" type="xlong" value="18"/>
+                        <entry key="10" type="xlong" value="14190"/>
+                        <entry key="11" type="xlong" value="1456"/>
+                        <entry key="12" type="xlong" value="3039"/>
+                        <entry key="13" type="xlong" value="215"/>
+                        <entry key="14" type="xlong" value="34"/>
+                        <entry key="15" type="xlong" value="9"/>
+                        <entry key="16" type="xlong" value="19"/>
+                        <entry key="17" type="xlong" value="461"/>
+                        <entry key="18" type="xlong" value="488"/>
+                    </config>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="14"/>
+                        <entry key="0" type="xstring" value="Railway crossing with signals/gates"/>
+                        <entry key="1" type="xstring" value="Reduced speed zone"/>
+                        <entry key="2" type="xstring" value="Markings on the road"/>
+                        <entry key="3" type="xstring" value="Police officer"/>
+                        <entry key="4" type="xstring" value="Traffic signals fully operational"/>
+                        <entry key="5" type="xstring" value="No control present"/>
+                        <entry key="6" type="xstring" value="Stop sign"/>
+                        <entry key="7" type="xstring" value="Unkown"/>
+                        <entry key="8" type="xstring" value="Pedestrian crosswalk"/>
+                        <entry key="9" type="xstring" value="No passing zone sign"/>
+                        <entry key="10" type="xstring" value="School bus lights flashing"/>
+                        <entry key="11" type="xstring" value="Railway crossing with signs only"/>
+                        <entry key="12" type="xstring" value="Yield sign"/>
+                        <entry key="13" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="14"/>
+                        <entry key="0" type="xlong" value="3"/>
+                        <entry key="1" type="xlong" value="1"/>
+                        <entry key="2" type="xlong" value="7"/>
+                        <entry key="3" type="xlong" value="3"/>
+                        <entry key="4" type="xlong" value="338"/>
+                        <entry key="5" type="xlong" value="509"/>
+                        <entry key="6" type="xlong" value="114"/>
+                        <entry key="7" type="xlong" value="132"/>
+                        <entry key="8" type="xlong" value="24"/>
+                        <entry key="9" type="xlong" value="5"/>
+                        <entry key="10" type="xlong" value="1"/>
+                        <entry key="11" type="xlong" value="1"/>
+                        <entry key="12" type="xlong" value="45"/>
+                        <entry key="13" type="xlong" value="12"/>
+                    </config>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="19"/>
+                        <entry key="0" type="xstring" value="School crossing"/>
+                        <entry key="1" type="xstring" value="Railway crossing with signals/gates"/>
+                        <entry key="2" type="xstring" value="Warning sign"/>
+                        <entry key="3" type="xstring" value="Reduced speed zone"/>
+                        <entry key="4" type="xstring" value="Markings on the road"/>
+                        <entry key="5" type="xstring" value="Police officer"/>
+                        <entry key="6" type="xstring" value="School guard, flagman"/>
+                        <entry key="7" type="xstring" value="Traffic signals fully operational"/>
+                        <entry key="8" type="xstring" value="Traffic signals in flashing mode"/>
+                        <entry key="9" type="xstring" value="Control device not specified"/>
+                        <entry key="10" type="xstring" value="Unkown"/>
+                        <entry key="11" type="xstring" value="No control present"/>
+                        <entry key="12" type="xstring" value="Stop sign"/>
+                        <entry key="13" type="xstring" value="Pedestrian crosswalk"/>
+                        <entry key="14" type="xstring" value="Railway crossing with signs only"/>
+                        <entry key="15" type="xstring" value="No passing zone sign"/>
+                        <entry key="16" type="xstring" value="School bus lights flashing"/>
+                        <entry key="17" type="xstring" value="Yield sign"/>
+                        <entry key="18" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="19"/>
+                        <entry key="0" type="xlong" value="2"/>
+                        <entry key="1" type="xlong" value="7"/>
+                        <entry key="2" type="xlong" value="6"/>
+                        <entry key="3" type="xlong" value="4"/>
+                        <entry key="4" type="xlong" value="21"/>
+                        <entry key="5" type="xlong" value="5"/>
+                        <entry key="6" type="xlong" value="73"/>
+                        <entry key="7" type="xlong" value="6890"/>
+                        <entry key="8" type="xlong" value="82"/>
+                        <entry key="9" type="xlong" value="11"/>
+                        <entry key="10" type="xlong" value="868"/>
+                        <entry key="11" type="xlong" value="9959"/>
+                        <entry key="12" type="xlong" value="2660"/>
+                        <entry key="13" type="xlong" value="176"/>
+                        <entry key="14" type="xlong" value="6"/>
+                        <entry key="15" type="xlong" value="9"/>
+                        <entry key="16" type="xlong" value="17"/>
+                        <entry key="17" type="xlong" value="413"/>
+                        <entry key="18" type="xlong" value="338"/>
+                    </config>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="0" type="xstring" value="School guard, flagman"/>
+                        <entry key="1" type="xstring" value="Traffic signals fully operational"/>
+                        <entry key="2" type="xstring" value="Traffic signals in flashing mode"/>
+                        <entry key="3" type="xstring" value="No control present"/>
+                        <entry key="4" type="xstring" value="Stop sign"/>
+                        <entry key="5" type="xstring" value="Unkown"/>
+                        <entry key="6" type="xstring" value="Pedestrian crosswalk"/>
+                        <entry key="7" type="xstring" value="Markings on the road"/>
+                        <entry key="8" type="xstring" value="Yield sign"/>
+                        <entry key="9" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="0" type="xlong" value="2"/>
+                        <entry key="1" type="xlong" value="27"/>
+                        <entry key="2" type="xlong" value="1"/>
+                        <entry key="3" type="xlong" value="256"/>
+                        <entry key="4" type="xlong" value="27"/>
+                        <entry key="5" type="xlong" value="21"/>
+                        <entry key="6" type="xlong" value="2"/>
+                        <entry key="7" type="xlong" value="3"/>
+                        <entry key="8" type="xlong" value="3"/>
+                        <entry key="9" type="xlong" value="3"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_10">
+            <entry key="attributeName" type="xstring" value="Vehicle Type"/>
+            <entry key="type" type="xstring" value="NominalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="maxNoOfAttrs" type="xlong" value="20"/>
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="attributeValues">
+                    <entry key="array-size" type="xint" value="20"/>
+                    <entry key="0" type="xstring" value="Light Duty Vehicle"/>
+                    <entry key="1" type="xstring" value="Not Applicable"/>
+                    <entry key="2" type="xstring" value="Cargo Van"/>
+                    <entry key="3" type="xstring" value="Other Truck or Cargo Van"/>
+                    <entry key="4" type="xstring" value="Other"/>
+                    <entry key="5" type="xstring" value="Construction equipment"/>
+                    <entry key="6" type="xstring" value="Road tractor"/>
+                    <entry key="7" type="xstring" value="Heavy Unit Truck"/>
+                    <entry key="8" type="xstring" value="Bicycle"/>
+                    <entry key="9" type="xstring" value="Urban and Intercity Bus"/>
+                    <entry key="10" type="xstring" value="School bus"/>
+                    <entry key="11" type="xstring" value="Fire engine"/>
+                    <entry key="12" type="xstring" value="Snowmobile"/>
+                    <entry key="13" type="xstring" value="Unkown"/>
+                    <entry key="14" type="xstring" value="Streetcar"/>
+                    <entry key="15" type="xstring" value="Off road vehicles"/>
+                    <entry key="16" type="xstring" value="Motorcycle and moped"/>
+                    <entry key="17" type="xstring" value="Farm equipment"/>
+                    <entry key="18" type="xstring" value="Smaller school bus"/>
+                    <entry key="19" type="xstring" value="Purpose-built motorhome"/>
+                </config>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="20"/>
+                        <entry key="0" type="xstring" value="Heavy Unit Truck"/>
+                        <entry key="1" type="xstring" value="Other Truck or Cargo Van"/>
+                        <entry key="2" type="xstring" value="Light Duty Vehicle"/>
+                        <entry key="3" type="xstring" value="Not Applicable"/>
+                        <entry key="4" type="xstring" value="Bicycle"/>
+                        <entry key="5" type="xstring" value="Snowmobile"/>
+                        <entry key="6" type="xstring" value="Streetcar"/>
+                        <entry key="7" type="xstring" value="Purpose-built motorhome"/>
+                        <entry key="8" type="xstring" value="Cargo Van"/>
+                        <entry key="9" type="xstring" value="Road tractor"/>
+                        <entry key="10" type="xstring" value="Motorcycle and moped"/>
+                        <entry key="11" type="xstring" value="Urban and Intercity Bus"/>
+                        <entry key="12" type="xstring" value="School bus"/>
+                        <entry key="13" type="xstring" value="Off road vehicles"/>
+                        <entry key="14" type="xstring" value="Construction equipment"/>
+                        <entry key="15" type="xstring" value="Unkown"/>
+                        <entry key="16" type="xstring" value="Farm equipment"/>
+                        <entry key="17" type="xstring" value="Smaller school bus"/>
+                        <entry key="18" type="xstring" value="Fire engine"/>
+                        <entry key="19" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="20"/>
+                        <entry key="0" type="xlong" value="250"/>
+                        <entry key="1" type="xlong" value="396"/>
+                        <entry key="2" type="xlong" value="22192"/>
+                        <entry key="3" type="xlong" value="2066"/>
+                        <entry key="4" type="xlong" value="908"/>
+                        <entry key="5" type="xlong" value="25"/>
+                        <entry key="6" type="xlong" value="14"/>
+                        <entry key="7" type="xlong" value="11"/>
+                        <entry key="8" type="xlong" value="167"/>
+                        <entry key="9" type="xlong" value="196"/>
+                        <entry key="10" type="xlong" value="1006"/>
+                        <entry key="11" type="xlong" value="175"/>
+                        <entry key="12" type="xlong" value="34"/>
+                        <entry key="13" type="xlong" value="54"/>
+                        <entry key="14" type="xlong" value="20"/>
+                        <entry key="15" type="xlong" value="57"/>
+                        <entry key="16" type="xlong" value="6"/>
+                        <entry key="17" type="xlong" value="3"/>
+                        <entry key="18" type="xlong" value="5"/>
+                        <entry key="19" type="xlong" value="85"/>
+                    </config>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="16"/>
+                        <entry key="0" type="xstring" value="Heavy Unit Truck"/>
+                        <entry key="1" type="xstring" value="Other Truck or Cargo Van"/>
+                        <entry key="2" type="xstring" value="Light Duty Vehicle"/>
+                        <entry key="3" type="xstring" value="Not Applicable"/>
+                        <entry key="4" type="xstring" value="Bicycle"/>
+                        <entry key="5" type="xstring" value="Purpose-built motorhome"/>
+                        <entry key="6" type="xstring" value="Cargo Van"/>
+                        <entry key="7" type="xstring" value="Road tractor"/>
+                        <entry key="8" type="xstring" value="Motorcycle and moped"/>
+                        <entry key="9" type="xstring" value="School bus"/>
+                        <entry key="10" type="xstring" value="Urban and Intercity Bus"/>
+                        <entry key="11" type="xstring" value="Off road vehicles"/>
+                        <entry key="12" type="xstring" value="Unkown"/>
+                        <entry key="13" type="xstring" value="Smaller school bus"/>
+                        <entry key="14" type="xstring" value="Farm equipment"/>
+                        <entry key="15" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="16"/>
+                        <entry key="0" type="xlong" value="6"/>
+                        <entry key="1" type="xlong" value="3"/>
+                        <entry key="2" type="xlong" value="948"/>
+                        <entry key="3" type="xlong" value="161"/>
+                        <entry key="4" type="xlong" value="1"/>
+                        <entry key="5" type="xlong" value="1"/>
+                        <entry key="6" type="xlong" value="2"/>
+                        <entry key="7" type="xlong" value="16"/>
+                        <entry key="8" type="xlong" value="16"/>
+                        <entry key="9" type="xlong" value="11"/>
+                        <entry key="10" type="xlong" value="9"/>
+                        <entry key="11" type="xlong" value="3"/>
+                        <entry key="12" type="xlong" value="10"/>
+                        <entry key="13" type="xlong" value="1"/>
+                        <entry key="14" type="xlong" value="2"/>
+                        <entry key="15" type="xlong" value="5"/>
+                    </config>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="20"/>
+                        <entry key="0" type="xstring" value="Heavy Unit Truck"/>
+                        <entry key="1" type="xstring" value="Other Truck or Cargo Van"/>
+                        <entry key="2" type="xstring" value="Light Duty Vehicle"/>
+                        <entry key="3" type="xstring" value="Not Applicable"/>
+                        <entry key="4" type="xstring" value="Streetcar"/>
+                        <entry key="5" type="xstring" value="Snowmobile"/>
+                        <entry key="6" type="xstring" value="Bicycle"/>
+                        <entry key="7" type="xstring" value="Purpose-built motorhome"/>
+                        <entry key="8" type="xstring" value="Cargo Van"/>
+                        <entry key="9" type="xstring" value="Road tractor"/>
+                        <entry key="10" type="xstring" value="Motorcycle and moped"/>
+                        <entry key="11" type="xstring" value="Urban and Intercity Bus"/>
+                        <entry key="12" type="xstring" value="School bus"/>
+                        <entry key="13" type="xstring" value="Off road vehicles"/>
+                        <entry key="14" type="xstring" value="Construction equipment"/>
+                        <entry key="15" type="xstring" value="Unkown"/>
+                        <entry key="16" type="xstring" value="Farm equipment"/>
+                        <entry key="17" type="xstring" value="Smaller school bus"/>
+                        <entry key="18" type="xstring" value="Fire engine"/>
+                        <entry key="19" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="20"/>
+                        <entry key="0" type="xlong" value="528"/>
+                        <entry key="1" type="xlong" value="384"/>
+                        <entry key="2" type="xlong" value="18948"/>
+                        <entry key="3" type="xlong" value="45"/>
+                        <entry key="4" type="xlong" value="18"/>
+                        <entry key="5" type="xlong" value="4"/>
+                        <entry key="6" type="xlong" value="37"/>
+                        <entry key="7" type="xlong" value="16"/>
+                        <entry key="8" type="xlong" value="256"/>
+                        <entry key="9" type="xlong" value="378"/>
+                        <entry key="10" type="xlong" value="60"/>
+                        <entry key="11" type="xlong" value="311"/>
+                        <entry key="12" type="xlong" value="199"/>
+                        <entry key="13" type="xlong" value="10"/>
+                        <entry key="14" type="xlong" value="36"/>
+                        <entry key="15" type="xlong" value="206"/>
+                        <entry key="16" type="xlong" value="11"/>
+                        <entry key="17" type="xlong" value="2"/>
+                        <entry key="18" type="xlong" value="14"/>
+                        <entry key="19" type="xlong" value="84"/>
+                    </config>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="11"/>
+                        <entry key="0" type="xstring" value="Heavy Unit Truck"/>
+                        <entry key="1" type="xstring" value="Road tractor"/>
+                        <entry key="2" type="xstring" value="Motorcycle and moped"/>
+                        <entry key="3" type="xstring" value="Other Truck or Cargo Van"/>
+                        <entry key="4" type="xstring" value="Off road vehicles"/>
+                        <entry key="5" type="xstring" value="Farm equipment"/>
+                        <entry key="6" type="xstring" value="Light Duty Vehicle"/>
+                        <entry key="7" type="xstring" value="Not Applicable"/>
+                        <entry key="8" type="xstring" value="Bicycle"/>
+                        <entry key="9" type="xstring" value="Snowmobile"/>
+                        <entry key="10" type="xstring" value="Cargo Van"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="11"/>
+                        <entry key="0" type="xlong" value="3"/>
+                        <entry key="1" type="xlong" value="9"/>
+                        <entry key="2" type="xlong" value="37"/>
+                        <entry key="3" type="xlong" value="7"/>
+                        <entry key="4" type="xlong" value="1"/>
+                        <entry key="5" type="xlong" value="2"/>
+                        <entry key="6" type="xlong" value="208"/>
+                        <entry key="7" type="xlong" value="64"/>
+                        <entry key="8" type="xlong" value="7"/>
+                        <entry key="9" type="xlong" value="5"/>
+                        <entry key="10" type="xlong" value="2"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_11">
+            <entry key="attributeName" type="xstring" value="Person Sex"/>
+            <entry key="type" type="xstring" value="NominalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="maxNoOfAttrs" type="xlong" value="20"/>
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="attributeValues">
+                    <entry key="array-size" type="xint" value="3"/>
+                    <entry key="0" type="xstring" value="M"/>
+                    <entry key="1" type="xstring" value="F"/>
+                    <entry key="2" type="xstring" value="U"/>
+                </config>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="3"/>
+                        <entry key="0" type="xstring" value="U"/>
+                        <entry key="1" type="xstring" value="F"/>
+                        <entry key="2" type="xstring" value="M"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="3"/>
+                        <entry key="0" type="xlong" value="248"/>
+                        <entry key="1" type="xlong" value="14259"/>
+                        <entry key="2" type="xlong" value="13163"/>
+                    </config>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="3"/>
+                        <entry key="0" type="xstring" value="U"/>
+                        <entry key="1" type="xstring" value="F"/>
+                        <entry key="2" type="xstring" value="M"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="3"/>
+                        <entry key="0" type="xlong" value="1131"/>
+                        <entry key="1" type="xlong" value="29"/>
+                        <entry key="2" type="xlong" value="35"/>
+                    </config>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="3"/>
+                        <entry key="0" type="xstring" value="U"/>
+                        <entry key="1" type="xstring" value="F"/>
+                        <entry key="2" type="xstring" value="M"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="3"/>
+                        <entry key="0" type="xlong" value="781"/>
+                        <entry key="1" type="xlong" value="7671"/>
+                        <entry key="2" type="xlong" value="13095"/>
+                    </config>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="2"/>
+                        <entry key="0" type="xstring" value="F"/>
+                        <entry key="1" type="xstring" value="M"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="2"/>
+                        <entry key="0" type="xlong" value="106"/>
+                        <entry key="1" type="xlong" value="239"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_12">
+            <entry key="attributeName" type="xstring" value="Person Age"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="2745"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="MissingValCounter" type="xlong" value="1"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="mean" type="xdouble" value="45.84302325581396"/>
+                    <entry key="sd" type="xdouble" value="21.79065004347603"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="MissingValCounter" type="xlong" value="1121"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="mean" type="xdouble" value="33.621621621621635"/>
+                    <entry key="sd" type="xdouble" value="22.633290248466018"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="MissingValCounter" type="xlong" value="537"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="mean" type="xdouble" value="39.910588582169396"/>
+                    <entry key="sd" type="xdouble" value="19.21252974302207"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="MissingValCounter" type="xlong" value="1086"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="mean" type="xdouble" value="38.31811739406707"/>
+                    <entry key="sd" type="xdouble" value="19.689168631059804"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_13">
+            <entry key="attributeName" type="xstring" value="Person Vehicle Position"/>
+            <entry key="type" type="xstring" value="NominalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="maxNoOfAttrs" type="xlong" value="20"/>
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="attributeValues">
+                    <entry key="array-size" type="xint" value="16"/>
+                    <entry key="0" type="xstring" value="Driver"/>
+                    <entry key="1" type="xstring" value="Other"/>
+                    <entry key="2" type="xstring" value="Unkown"/>
+                    <entry key="3" type="xstring" value="Front row, right outboard"/>
+                    <entry key="4" type="xstring" value="Pedestrian"/>
+                    <entry key="5" type="xstring" value="Second row, right outboard"/>
+                    <entry key="6" type="xstring" value="Second row, left outboard"/>
+                    <entry key="7" type="xstring" value="Front row, center"/>
+                    <entry key="8" type="xstring" value="Second row, center"/>
+                    <entry key="9" type="xstring" value="Third row, center"/>
+                    <entry key="10" type="xstring" value="Outside passenger compartment"/>
+                    <entry key="11" type="xstring" value="Position unknown"/>
+                    <entry key="12" type="xstring" value="Third row, left outboard"/>
+                    <entry key="13" type="xstring" value="Third row, right outboard"/>
+                    <entry key="14" type="xstring" value="Not Applicable"/>
+                    <entry key="15" type="xstring" value="Sitting on someone’s lap"/>
+                </config>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="16"/>
+                        <entry key="0" type="xstring" value="Third row, right outboard"/>
+                        <entry key="1" type="xstring" value="Pedestrian"/>
+                        <entry key="2" type="xstring" value="Driver"/>
+                        <entry key="3" type="xstring" value="Third row, left outboard"/>
+                        <entry key="4" type="xstring" value="Not Applicable"/>
+                        <entry key="5" type="xstring" value="Front row, right outboard"/>
+                        <entry key="6" type="xstring" value="Second row, left outboard"/>
+                        <entry key="7" type="xstring" value="Second row, center"/>
+                        <entry key="8" type="xstring" value="Outside passenger compartment"/>
+                        <entry key="9" type="xstring" value="Second row, right outboard"/>
+                        <entry key="10" type="xstring" value="Unkown"/>
+                        <entry key="11" type="xstring" value="Front row, center"/>
+                        <entry key="12" type="xstring" value="Third row, center"/>
+                        <entry key="13" type="xstring" value="Sitting on someone’s lap"/>
+                        <entry key="14" type="xstring" value="Position unknown"/>
+                        <entry key="15" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="16"/>
+                        <entry key="0" type="xlong" value="36"/>
+                        <entry key="1" type="xlong" value="2044"/>
+                        <entry key="2" type="xlong" value="18698"/>
+                        <entry key="3" type="xlong" value="27"/>
+                        <entry key="4" type="xlong" value="1"/>
+                        <entry key="5" type="xlong" value="3827"/>
+                        <entry key="6" type="xlong" value="793"/>
+                        <entry key="7" type="xlong" value="250"/>
+                        <entry key="8" type="xlong" value="34"/>
+                        <entry key="9" type="xlong" value="935"/>
+                        <entry key="10" type="xlong" value="95"/>
+                        <entry key="11" type="xlong" value="305"/>
+                        <entry key="12" type="xlong" value="80"/>
+                        <entry key="13" type="xlong" value="5"/>
+                        <entry key="14" type="xlong" value="330"/>
+                        <entry key="15" type="xlong" value="210"/>
+                    </config>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xstring" value="Third row, right outboard"/>
+                        <entry key="1" type="xstring" value="Unkown"/>
+                        <entry key="2" type="xstring" value="Pedestrian"/>
+                        <entry key="3" type="xstring" value="Driver"/>
+                        <entry key="4" type="xstring" value="Third row, center"/>
+                        <entry key="5" type="xstring" value="Position unknown"/>
+                        <entry key="6" type="xstring" value="Front row, right outboard"/>
+                        <entry key="7" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xlong" value="1"/>
+                        <entry key="1" type="xlong" value="1104"/>
+                        <entry key="2" type="xlong" value="1"/>
+                        <entry key="3" type="xlong" value="54"/>
+                        <entry key="4" type="xlong" value="1"/>
+                        <entry key="5" type="xlong" value="3"/>
+                        <entry key="6" type="xlong" value="5"/>
+                        <entry key="7" type="xlong" value="26"/>
+                    </config>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="16"/>
+                        <entry key="0" type="xstring" value="Third row, right outboard"/>
+                        <entry key="1" type="xstring" value="Pedestrian"/>
+                        <entry key="2" type="xstring" value="Driver"/>
+                        <entry key="3" type="xstring" value="Third row, left outboard"/>
+                        <entry key="4" type="xstring" value="Not Applicable"/>
+                        <entry key="5" type="xstring" value="Front row, right outboard"/>
+                        <entry key="6" type="xstring" value="Second row, left outboard"/>
+                        <entry key="7" type="xstring" value="Second row, center"/>
+                        <entry key="8" type="xstring" value="Outside passenger compartment"/>
+                        <entry key="9" type="xstring" value="Unkown"/>
+                        <entry key="10" type="xstring" value="Second row, right outboard"/>
+                        <entry key="11" type="xstring" value="Third row, center"/>
+                        <entry key="12" type="xstring" value="Front row, center"/>
+                        <entry key="13" type="xstring" value="Sitting on someone’s lap"/>
+                        <entry key="14" type="xstring" value="Position unknown"/>
+                        <entry key="15" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="16"/>
+                        <entry key="0" type="xlong" value="36"/>
+                        <entry key="1" type="xlong" value="28"/>
+                        <entry key="2" type="xlong" value="15525"/>
+                        <entry key="3" type="xlong" value="32"/>
+                        <entry key="4" type="xlong" value="1"/>
+                        <entry key="5" type="xlong" value="2712"/>
+                        <entry key="6" type="xlong" value="920"/>
+                        <entry key="7" type="xlong" value="308"/>
+                        <entry key="8" type="xlong" value="11"/>
+                        <entry key="9" type="xlong" value="73"/>
+                        <entry key="10" type="xlong" value="1164"/>
+                        <entry key="11" type="xlong" value="96"/>
+                        <entry key="12" type="xlong" value="226"/>
+                        <entry key="13" type="xlong" value="6"/>
+                        <entry key="14" type="xlong" value="242"/>
+                        <entry key="15" type="xlong" value="167"/>
+                    </config>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="11"/>
+                        <entry key="0" type="xstring" value="Pedestrian"/>
+                        <entry key="1" type="xstring" value="Second row, right outboard"/>
+                        <entry key="2" type="xstring" value="Unkown"/>
+                        <entry key="3" type="xstring" value="Driver"/>
+                        <entry key="4" type="xstring" value="Third row, center"/>
+                        <entry key="5" type="xstring" value="Front row, center"/>
+                        <entry key="6" type="xstring" value="Position unknown"/>
+                        <entry key="7" type="xstring" value="Second row, left outboard"/>
+                        <entry key="8" type="xstring" value="Front row, right outboard"/>
+                        <entry key="9" type="xstring" value="Second row, center"/>
+                        <entry key="10" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="11"/>
+                        <entry key="0" type="xlong" value="64"/>
+                        <entry key="1" type="xlong" value="12"/>
+                        <entry key="2" type="xlong" value="4"/>
+                        <entry key="3" type="xlong" value="210"/>
+                        <entry key="4" type="xlong" value="1"/>
+                        <entry key="5" type="xlong" value="1"/>
+                        <entry key="6" type="xlong" value="14"/>
+                        <entry key="7" type="xlong" value="8"/>
+                        <entry key="8" type="xlong" value="24"/>
+                        <entry key="9" type="xlong" value="4"/>
+                        <entry key="10" type="xlong" value="3"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_14">
+            <entry key="attributeName" type="xstring" value="Person Injury Severity"/>
+            <entry key="type" type="xstring" value="ClassModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="totalNoOfRecords" type="xlong" value="50757"/>
+                <entry key="maxNoOfClassValues" type="xlong" value="20"/>
+                <config key="classValues">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xstring" value="Injury"/>
+                    <entry key="1" type="xstring" value="Unknown"/>
+                    <entry key="2" type="xstring" value="No injury"/>
+                    <entry key="3" type="xstring" value="Fatality"/>
+                </config>
+                <config key="classRecordCounter">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xlong" value="27670"/>
+                    <entry key="1" type="xlong" value="1195"/>
+                    <entry key="2" type="xlong" value="21547"/>
+                    <entry key="3" type="xlong" value="345"/>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_15">
+            <entry key="attributeName" type="xstring" value="Person Safety Gear"/>
+            <entry key="type" type="xstring" value="NominalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="maxNoOfAttrs" type="xlong" value="20"/>
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="attributeValues">
+                    <entry key="array-size" type="xint" value="9"/>
+                    <entry key="0" type="xstring" value="Safety Device Used"/>
+                    <entry key="1" type="xstring" value="Not applicable"/>
+                    <entry key="2" type="xstring" value="Unknown"/>
+                    <entry key="3" type="xstring" value="No safety Device Used"/>
+                    <entry key="4" type="xstring" value="No safety Device present"/>
+                    <entry key="5" type="xstring" value="Other"/>
+                    <entry key="6" type="xstring" value="Helmet Used"/>
+                    <entry key="7" type="xstring" value="Another Safety Device Used"/>
+                    <entry key="8" type="xstring" value="Reflective Clothing Used"/>
+                </config>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="9"/>
+                        <entry key="0" type="xstring" value="Safety Device Used"/>
+                        <entry key="1" type="xstring" value="No safety Device present"/>
+                        <entry key="2" type="xstring" value="Not applicable"/>
+                        <entry key="3" type="xstring" value="Unknown"/>
+                        <entry key="4" type="xstring" value="Helmet Used"/>
+                        <entry key="5" type="xstring" value="Reflective Clothing Used"/>
+                        <entry key="6" type="xstring" value="Another Safety Device Used"/>
+                        <entry key="7" type="xstring" value="No safety Device Used"/>
+                        <entry key="8" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="9"/>
+                        <entry key="0" type="xlong" value="20967"/>
+                        <entry key="1" type="xlong" value="317"/>
+                        <entry key="2" type="xlong" value="1023"/>
+                        <entry key="3" type="xlong" value="2210"/>
+                        <entry key="4" type="xlong" value="1206"/>
+                        <entry key="5" type="xlong" value="13"/>
+                        <entry key="6" type="xlong" value="452"/>
+                        <entry key="7" type="xlong" value="993"/>
+                        <entry key="8" type="xlong" value="489"/>
+                    </config>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="4"/>
+                        <entry key="0" type="xstring" value="Safety Device Used"/>
+                        <entry key="1" type="xstring" value="No safety Device present"/>
+                        <entry key="2" type="xstring" value="Not applicable"/>
+                        <entry key="3" type="xstring" value="Unknown"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="4"/>
+                        <entry key="0" type="xlong" value="13"/>
+                        <entry key="1" type="xlong" value="1"/>
+                        <entry key="2" type="xlong" value="142"/>
+                        <entry key="3" type="xlong" value="1039"/>
+                    </config>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xstring" value="Safety Device Used"/>
+                        <entry key="1" type="xstring" value="No safety Device present"/>
+                        <entry key="2" type="xstring" value="Not applicable"/>
+                        <entry key="3" type="xstring" value="Unknown"/>
+                        <entry key="4" type="xstring" value="Helmet Used"/>
+                        <entry key="5" type="xstring" value="Another Safety Device Used"/>
+                        <entry key="6" type="xstring" value="Other"/>
+                        <entry key="7" type="xstring" value="No safety Device Used"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xlong" value="16233"/>
+                        <entry key="1" type="xlong" value="260"/>
+                        <entry key="2" type="xlong" value="1668"/>
+                        <entry key="3" type="xlong" value="2576"/>
+                        <entry key="4" type="xlong" value="47"/>
+                        <entry key="5" type="xlong" value="371"/>
+                        <entry key="6" type="xlong" value="148"/>
+                        <entry key="7" type="xlong" value="244"/>
+                    </config>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xstring" value="Safety Device Used"/>
+                        <entry key="1" type="xstring" value="Not applicable"/>
+                        <entry key="2" type="xstring" value="Unknown"/>
+                        <entry key="3" type="xstring" value="Helmet Used"/>
+                        <entry key="4" type="xstring" value="Reflective Clothing Used"/>
+                        <entry key="5" type="xstring" value="Another Safety Device Used"/>
+                        <entry key="6" type="xstring" value="No safety Device Used"/>
+                        <entry key="7" type="xstring" value="Other"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="8"/>
+                        <entry key="0" type="xlong" value="139"/>
+                        <entry key="1" type="xlong" value="32"/>
+                        <entry key="2" type="xlong" value="54"/>
+                        <entry key="3" type="xlong" value="40"/>
+                        <entry key="4" type="xlong" value="3"/>
+                        <entry key="5" type="xlong" value="1"/>
+                        <entry key="6" type="xlong" value="71"/>
+                        <entry key="7" type="xlong" value="5"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_16">
+            <entry key="attributeName" type="xstring" value="Person Role"/>
+            <entry key="type" type="xstring" value="NominalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="0"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="maxNoOfAttrs" type="xlong" value="20"/>
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="attributeValues">
+                    <entry key="array-size" type="xint" value="6"/>
+                    <entry key="0" type="xstring" value="Driver"/>
+                    <entry key="1" type="xstring" value="Other or Unknown"/>
+                    <entry key="2" type="xstring" value="Pedestrian"/>
+                    <entry key="3" type="xstring" value="Passenger"/>
+                    <entry key="4" type="xstring" value="Bicyclist"/>
+                    <entry key="5" type="xstring" value="Motorcyclist"/>
+                </config>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="6"/>
+                        <entry key="0" type="xstring" value="Pedestrian"/>
+                        <entry key="1" type="xstring" value="Driver"/>
+                        <entry key="2" type="xstring" value="Passenger"/>
+                        <entry key="3" type="xstring" value="Motorcyclist"/>
+                        <entry key="4" type="xstring" value="Bicyclist"/>
+                        <entry key="5" type="xstring" value="Other or Unknown"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="6"/>
+                        <entry key="0" type="xlong" value="2044"/>
+                        <entry key="1" type="xlong" value="16884"/>
+                        <entry key="2" type="xlong" value="6261"/>
+                        <entry key="3" type="xlong" value="1006"/>
+                        <entry key="4" type="xlong" value="908"/>
+                        <entry key="5" type="xlong" value="567"/>
+                    </config>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="6"/>
+                        <entry key="0" type="xstring" value="Pedestrian"/>
+                        <entry key="1" type="xstring" value="Driver"/>
+                        <entry key="2" type="xstring" value="Passenger"/>
+                        <entry key="3" type="xstring" value="Motorcyclist"/>
+                        <entry key="4" type="xstring" value="Bicyclist"/>
+                        <entry key="5" type="xstring" value="Other or Unknown"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="6"/>
+                        <entry key="0" type="xlong" value="143"/>
+                        <entry key="1" type="xlong" value="33"/>
+                        <entry key="2" type="xlong" value="10"/>
+                        <entry key="3" type="xlong" value="16"/>
+                        <entry key="4" type="xlong" value="1"/>
+                        <entry key="5" type="xlong" value="992"/>
+                    </config>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="6"/>
+                        <entry key="0" type="xstring" value="Pedestrian"/>
+                        <entry key="1" type="xstring" value="Driver"/>
+                        <entry key="2" type="xstring" value="Passenger"/>
+                        <entry key="3" type="xstring" value="Motorcyclist"/>
+                        <entry key="4" type="xstring" value="Bicyclist"/>
+                        <entry key="5" type="xstring" value="Other or Unknown"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="6"/>
+                        <entry key="0" type="xlong" value="33"/>
+                        <entry key="1" type="xlong" value="15148"/>
+                        <entry key="2" type="xlong" value="5666"/>
+                        <entry key="3" type="xlong" value="60"/>
+                        <entry key="4" type="xlong" value="37"/>
+                        <entry key="5" type="xlong" value="603"/>
+                    </config>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="MissingValCounter" type="xlong" value="0"/>
+                    <config key="attributeValues">
+                        <entry key="array-size" type="xint" value="6"/>
+                        <entry key="0" type="xstring" value="Pedestrian"/>
+                        <entry key="1" type="xstring" value="Driver"/>
+                        <entry key="2" type="xstring" value="Passenger"/>
+                        <entry key="3" type="xstring" value="Motorcyclist"/>
+                        <entry key="4" type="xstring" value="Bicyclist"/>
+                        <entry key="5" type="xstring" value="Other or Unknown"/>
+                    </config>
+                    <config key="attributeCounter">
+                        <entry key="array-size" type="xint" value="6"/>
+                        <entry key="0" type="xlong" value="64"/>
+                        <entry key="1" type="xlong" value="169"/>
+                        <entry key="2" type="xlong" value="54"/>
+                        <entry key="3" type="xlong" value="37"/>
+                        <entry key="4" type="xlong" value="7"/>
+                        <entry key="5" type="xlong" value="14"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="AttributeModelData_17">
+            <entry key="attributeName" type="xstring" value="Vehicle Age"/>
+            <entry key="type" type="xstring" value="NumericalModel"/>
+            <entry key="skipMissingVals" type="xboolean" value="false"/>
+            <entry key="numberOfMissingValues" type="xint" value="4541"/>
+            <entry key="invalidCause" type="xstring" isnull="true" value=""/>
+            <config key="data">
+                <entry key="noOfClasses" type="xlong" value="4"/>
+                <config key="classValueData_0">
+                    <entry key="classValue" type="xstring" value="Fatality"/>
+                    <entry key="MissingValCounter" type="xlong" value="81"/>
+                    <entry key="noOfRows" type="xlong" value="345"/>
+                    <entry key="mean" type="xdouble" value="12.321969696969697"/>
+                    <entry key="sd" type="xdouble" value="7.503011455170293"/>
+                </config>
+                <config key="classValueData_1">
+                    <entry key="classValue" type="xstring" value="Unknown"/>
+                    <entry key="MissingValCounter" type="xlong" value="210"/>
+                    <entry key="noOfRows" type="xlong" value="1195"/>
+                    <entry key="mean" type="xdouble" value="9.838578680203053"/>
+                    <entry key="sd" type="xdouble" value="5.564051830684633"/>
+                </config>
+                <config key="classValueData_2">
+                    <entry key="classValue" type="xstring" value="Injury"/>
+                    <entry key="MissingValCounter" type="xlong" value="3386"/>
+                    <entry key="noOfRows" type="xlong" value="27670"/>
+                    <entry key="mean" type="xdouble" value="9.50102948443414"/>
+                    <entry key="sd" type="xdouble" value="6.061303911621892"/>
+                </config>
+                <config key="classValueData_3">
+                    <entry key="classValue" type="xstring" value="No injury"/>
+                    <entry key="MissingValCounter" type="xlong" value="864"/>
+                    <entry key="noOfRows" type="xlong" value="21547"/>
+                    <entry key="mean" type="xdouble" value="8.75704685007008"/>
+                    <entry key="sd" type="xdouble" value="5.7333326604428265"/>
+                </config>
+            </config>
+        </config>
+    </config>
+</config>

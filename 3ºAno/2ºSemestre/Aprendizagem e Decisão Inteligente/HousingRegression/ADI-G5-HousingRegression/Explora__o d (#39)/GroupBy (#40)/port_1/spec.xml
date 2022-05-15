@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+    <entry key="spec_name" type="xstring" value="default"/>
+    <entry key="number_columns" type="xint" value="2"/>
+    <config key="column_spec_0">
+        <entry key="column_name" type="xstring" value="ZipCode National Area"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="10"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="3"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="4"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="0"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="1"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="2"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="9"/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="7"/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="5"/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="8"/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="6"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_1">
+        <entry key="column_name" type="xstring" value="Unique concatenate(State)"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="10"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="WI, AE, AP, MI, PW, IN, MN, NY, PA, AS, TX, NC, RI, HI, MH, OR, DC, GA, CO, AL, NJ, KY, ID, WY, KS, IL, MO, TN, ME, NV, AR, CT, AK, NH, WV, OH, IA, MD, NE, FM, MP, OK, AA, VI, DE, GU, AZ, VT, MS, SD, NM, ND, SC, VA, MT, FL, UT, WA, MA, CA, LA, PR"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="KS, TN, CT, WA, AA, PW, AE, NH, DC, ID, WV, CO, NM, AK, ME, MO, AZ, OK, MD, NV, ND, AS, DE, NJ, VT, NC, SD, KY, MH, AL, UT, MI, NY, VA, WI, IA, TX, OR, GA, MT, WY, FM, IL, AP, PR, MA, MS, CA, IN, MN, FL, NE, GU, AR, PA, HI, VI, LA, OH, MP, RI, SC"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CO, AA, NM, AR, TN, MN, ID, UT, VT, KY, AK, KS, MH, DE, MI, RI, AE, HI, AP, MA, MT, AS, ME, PA, WY, WI, CA, MS, PW, NE, PR, GU, WA, IN, SC, NC, FL, OK, NY, MP, MD, OR, DC, WV, IL, AZ, AL, NH, FM, NV, GA, CT, TX, IA, VA, SD, LA, ND, MO, OH, VI, NJ"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="NE, ME, VA, WY, ID, IA, KS, CA, DC, NH, AA, MT, NV, CO, NY, PR, AZ, PA, MI, MA, AR, GA, WI, MN, RI, SC, MH, OR, AP, TX, NC, NM, NJ, MO, TN, AE, MS, HI, VI, FM, KY, AK, CT, GU, ND, LA, IL, AL, OK, WV, OH, SD, MP, PW, DE, WA, MD, AS, IN, VT, FL, UT"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="CA, AP, HI, SD, NC, OR, PR, AE, MS, ME, NE, MN, MP, CT, RI, GU, FM, LA, AA, AZ, GA, TX, NH, AS, ND, OH, VT, AR, IN, KS, AL, SC, MA, MD, PA, VA, MI, AK, DE, KY, NY, DC, IL, TN, UT, NV, NM, MO, WY, MH, NJ, ID, VI, MT, FL, WV, IA, PW, WI, WA, OK, CO"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="NE, PW, NJ, AA, DE, KY, OR, KS, IL, MA, WA, AP, WY, AK, AE, SC, GA, MS, TN, ID, MP, UT, TX, VI, OK, MD, OH, MN, ND, AR, NM, IA, PR, GU, PA, NH, VT, DC, CO, AS, NV, AZ, IN, FM, MI, HI, CT, WV, LA, AL, ME, NY, RI, CA, VA, MO, WI, FL, SD, MT, NC"/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="DE, AL, NV, NH, MO, PW, NM, WY, ND, LA, AS, SD, OH, VA, AP, VI, VT, PA, DC, OR, MI, NY, WA, CO, MP, ME, OK, WV, TN, NE, MH, MA, KS, TX, NC, MD, SC, IL, AE, HI, KY, UT, CT, GU, GA, AZ, PR, CA, AR, AA, WI, FL, NJ, AK, ID, MS, FM, RI, MT, IN, IA, MN"/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="PW, AE, AZ, WV, AP, MH, RI, KY, FM, KS, PR, MT, NC, ID, OK, NJ, VT, MN, GU, NY, CO, SC, AA, VI, CA, IA, MD, TN, LA, OR, HI, MO, WA, AK, UT, TX, AL, CT, MI, MP, SD, WY, NH, NE, MA, OH, DE, IL, DC, NV, IN, PA, VA, GA, FL, WI, AS, ME, ND, MS, NM, AR"/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="NM, HI, AP, MA, OK, WI, MP, OR, PR, WY, SC, MI, MO, CA, IN, DC, IA, KS, NE, LA, AZ, NY, ME, DE, NJ, FL, CO, UT, AE, TN, PA, NH, KY, MS, PW, AL, ND, AA, RI, GU, OH, AR, TX, CT, MD, MT, AK, WV, VI, GA, VT, VA, IL, NC, AS, WA, ID, NV, SD, FM, MN, MH"/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="AE, IN, NY, WV, AK, NH, CT, TX, PW, GA, MD, SC, PA, VI, AA, KY, MP, FL, RI, OK, VT, CO, OR, OH, NV, AP, SD, NC, FM, ID, MS, MT, MO, LA, VA, AZ, ND, TN, WY, UT, PR, NM, GU, MH, AR, WA, KS, AL, IL, DE, HI, NE, IA, MN, ME, DC, MI, CA, WI, AS, NJ, MA"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+</config>
