@@ -34,5 +34,7 @@ Este índice contêm também as notas obtidas em cada projeto, assim com um link
 * (11) [Sistemas Distribuídos](https://github.com/VicShadow/UMinho-Miei/tree/main/3%C2%BAAno/1%C2%BASemestre/Sistemas%20Distribu%C3%ADdos) --> [(Rep. Original)](https://github.com/VicShadow/SD-21-22-SRV)
 
 ### 3º Ano - 2º Semestre
-* (-) [Aprendizagem e Decisões Inteligentes]() --> [(Rep. Original)](https://github.com/VicShadow/ADI-21-22-DataAnalysis)
-* (-) [Processamento de Linguagens]() --> [(Rep. Original)](https://github.com/marshaia/PL-21-22)
+* (-) [Aprendizagem e Decisões Inteligentes](https://github.com/VicShadow/UMinho-Miei/tree/main/3%C2%BAAno/2%C2%BASemestre/Aprendizagem%20e%20Decis%C3%A3o%20Inteligente) --> [(Rep. Original)](https://github.com/VicShadow/ADI-21-22-DataAnalysis)
+* (-) [Processamento de Linguagens](https://github.com/VicShadow/UMinho-Miei/tree/main/3%C2%BAAno/2%C2%BASemestre/Processamento%20de%20Linguagens) --> [(Rep. Original)](https://github.com/marshaia/PL-21-22)
+* (-) [Investigação Operacional](https://github.com/VicShadow/UMinho-Miei/tree/main/3%C2%BAAno/2%C2%BASemestre/Investiga%C3%A7%C3%A3o%20Operacional)
+* (-) [Redes de Computadores](https://github.com/VicShadow/UMinho-Miei/tree/main/3%C2%BAAno/2%C2%BASemestre/Redes%20de%20Computadores)
