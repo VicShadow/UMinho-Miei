@@ -164,7 +164,7 @@ estado(2,'Não Entregue').
 % veiculo: veiculo utilizado
 % veiculo: #IdVeiculo, Veiculo, Estado -> {V,F}
 % 0 disponível, 1 indisponível para uso
-veiculo(1, bicicleta, 0).
+veiculo(1, bicicleta, 0). 
 veiculo(2, bicicleta, 0).
 veiculo(3, bicicleta, 0).
 veiculo(4, bicicleta, 1).
@@ -192,6 +192,6 @@ peso(carro, 100).
 peso(moto, 20).
 
 % velocidade: Veiculo,VelocidadeMedia -> {V,F}
-velocidade(bicicleta, 10).
+velocidade(bicicleta, 10). 
 velocidade(carro, 25).
 velocidade(moto, 35).

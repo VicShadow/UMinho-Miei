@@ -3,7 +3,7 @@
 % Predicado de Teste
 testeAll([P1,P2,P3,P4,P5,P6,P7,P8,P9,P10]) :-
       estafetaMaisEcologico(P1),
-      entregasDoCliente(1,P2),
+      entregasDoCliente(1,[17,40,21,42,90],P2),
       clientesDeUmEstafeta(1,P3),
       faturaUmDia([2021,2,12],P4),
       maiorVolumeFreguesia(P5),
@@ -43,9 +43,16 @@ estafetaMaisEcologico(Indice,Max,[(Indice,Media)|T]) :-
 
 % PREDICADO 2
 % Gera uma lista de entregas e os seus estafetas de um cliente.
-%     Gera os pares de entregas que o cliente fez.
-entregasDoCliente(IdCliente,Res) :-
-      findall((IdEntrega,IdEstafeta),entrega(IdEntrega,IdEstafeta,IdCliente),Res).
+%     Percorre a lista de Id's de Entregas.
+%     Avalia se as entregas pertencem ao cliente.
+%     Devolve o nome do estafeta, com o id da entrega correspondente.
+entregasDoCliente(_,[],[]).
+entregasDoCliente(IdCliente,[IdEntrega|Entregas],[(Nome,IdEntrega)|T]) :-
+      entrega(IdEntrega,IdEstafeta,IdCliente),
+      estafeta(IdEstafeta,Nome,_),
+      entregasDoCliente(IdCliente,Entregas,T).
+entregasDoCliente(IdCliente,[_|Entregas],T) :-
+      entregasDoCliente(IdCliente,Entregas,T).      
 
 
 

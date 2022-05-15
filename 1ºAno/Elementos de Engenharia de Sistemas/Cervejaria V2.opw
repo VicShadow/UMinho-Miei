@@ -1,0 +1,27 @@
+[RESOURCES]
+Empregado
+[VARIABLES]
+Encomenda 104Packs 2496C.NumberOut
+Encomenda 104Packs 2496C.NumberIn
+Saida.NumberOut
+Custos.NumberOut
+Fim verificação.NumberOut
+Há cerveja?.NumberOut False
+Custo
+Há cerveja?.NumberOut True
+Cerveja
+Paga.NumberOut
+Paga.NumberIn
+Entrada.NumberOut
+CliePerd
+Rend
+Bebe.NumberOut
+Verificação Stock.NumberOut
+Bebe.NumberIn
+Bebe outra?.NumberOut False
+Bebe outra?.NumberOut True
+FimCustos.NumberOut
+Há cerveja em stock?.NumberOut False
+Há cerveja em stock?.NumberOut True
+Pede Cerveja.NumberOut
+Pede Cerveja.NumberIn
